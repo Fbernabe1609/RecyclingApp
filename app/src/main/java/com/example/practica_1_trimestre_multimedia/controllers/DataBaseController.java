@@ -13,8 +13,7 @@ public class DataBaseController {
     static DatabaseHelper dataBase;
 
     public static void startDataBase(Context context) {
-        DatabaseHelper db = new DatabaseHelper(context);
-        dataBase = db;
+        dataBase = new DatabaseHelper(context);
     }
 
     public static boolean addUser(User user, SQLiteDatabase db) {
