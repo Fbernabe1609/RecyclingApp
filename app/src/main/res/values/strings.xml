@@ -2,4 +2,6 @@
     <string name="app_name">Practica-1-Trimestre-Multimedia</string>
     <string name="login">Login</string>
     <string name="registrarse">Registrarse</string>
+    <string name="logo_de_la_app">Logo de la app</string>
+    <string name="bienvenido_a_recycling">Bienvenido a Recycling</string>
 </resources>
