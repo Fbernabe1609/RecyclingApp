@@ -13,10 +13,6 @@ drawable ic_home_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
-id action_homeFragment3_to_rewardsFragment
-id action_rewardsFragment_to_homeFragment3
-id action_rewardsFragment_to_settingsFragment
-id action_settingsFragment_to_rewardsFragment
 id bottomNavigationView
 id button
 id button2
@@ -57,7 +53,6 @@ layout activity_register
 layout fragment_home
 layout fragment_rewards
 layout fragment_settings
-layout fragment_user
 menu menu_bar
 mipmap ic_launcher
 mipmap ic_launcher_round

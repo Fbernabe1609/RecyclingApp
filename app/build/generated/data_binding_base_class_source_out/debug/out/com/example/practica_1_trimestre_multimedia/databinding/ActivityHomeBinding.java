@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -24,13 +25,27 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final BottomNavigationView bottomNavigationView;
 
   @NonNull
+  public final ConstraintLayout constraintLayout;
+
+  @NonNull
   public final FrameLayout container;
 
+  @NonNull
+  public final TextView textView4;
+
+  @NonNull
+  public final TextView textView5;
+
   private ActivityHomeBinding(@NonNull ConstraintLayout rootView,
-      @NonNull BottomNavigationView bottomNavigationView, @NonNull FrameLayout container) {
+      @NonNull BottomNavigationView bottomNavigationView,
+      @NonNull ConstraintLayout constraintLayout, @NonNull FrameLayout container,
+      @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
     this.bottomNavigationView = bottomNavigationView;
+    this.constraintLayout = constraintLayout;
     this.container = container;
+    this.textView4 = textView4;
+    this.textView5 = textView5;
   }
 
   @Override
@@ -66,13 +81,32 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.constraintLayout;
+      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout == null) {
+        break missingId;
+      }
+
       id = R.id.container;
       FrameLayout container = ViewBindings.findChildViewById(rootView, id);
       if (container == null) {
         break missingId;
       }
 
-      return new ActivityHomeBinding((ConstraintLayout) rootView, bottomNavigationView, container);
+      id = R.id.textView4;
+      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
+      if (textView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView5;
+      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
+      if (textView5 == null) {
+        break missingId;
+      }
+
+      return new ActivityHomeBinding((ConstraintLayout) rootView, bottomNavigationView,
+          constraintLayout, container, textView4, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -24,26 +23,13 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final Button button2;
 
   @NonNull
-  public final ConstraintLayout constraintLayout;
-
-  @NonNull
   public final Button recycleButton;
 
-  @NonNull
-  public final TextView textView4;
-
-  @NonNull
-  public final TextView textView5;
-
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull Button button2,
-      @NonNull ConstraintLayout constraintLayout, @NonNull Button recycleButton,
-      @NonNull TextView textView4, @NonNull TextView textView5) {
+      @NonNull Button recycleButton) {
     this.rootView = rootView;
     this.button2 = button2;
-    this.constraintLayout = constraintLayout;
     this.recycleButton = recycleButton;
-    this.textView4 = textView4;
-    this.textView5 = textView5;
   }
 
   @Override
@@ -79,32 +65,13 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.constraintLayout;
-      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
-      if (constraintLayout == null) {
-        break missingId;
-      }
-
       id = R.id.recycleButton;
       Button recycleButton = ViewBindings.findChildViewById(rootView, id);
       if (recycleButton == null) {
         break missingId;
       }
 
-      id = R.id.textView4;
-      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
-      if (textView4 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView5;
-      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
-      if (textView5 == null) {
-        break missingId;
-      }
-
-      return new FragmentHomeBinding((ConstraintLayout) rootView, button2, constraintLayout,
-          recycleButton, textView4, textView5);
+      return new FragmentHomeBinding((ConstraintLayout) rootView, button2, recycleButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

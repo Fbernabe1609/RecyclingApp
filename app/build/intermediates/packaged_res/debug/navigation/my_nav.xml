@@ -9,30 +9,15 @@
         android:id="@+id/homeFragment3"
         android:name="com.example.practica_1_trimestre_multimedia.views.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_homeFragment3_to_rewardsFragment"
-            app:destination="@id/rewardsFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.practica_1_trimestre_multimedia.views.SettingsFragment"
         android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" >
-        <action
-            android:id="@+id/action_settingsFragment_to_rewardsFragment"
-            app:destination="@id/rewardsFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/rewardsFragment"
         android:name="com.example.practica_1_trimestre_multimedia.views.RewardsFragment"
         android:label="fragment_rewards"
-        tools:layout="@layout/fragment_rewards" >
-        <action
-            android:id="@+id/action_rewardsFragment_to_homeFragment3"
-            app:destination="@id/homeFragment3" />
-        <action
-            android:id="@+id/action_rewardsFragment_to_settingsFragment"
-            app:destination="@id/settingsFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_rewards" />
 </navigation>
