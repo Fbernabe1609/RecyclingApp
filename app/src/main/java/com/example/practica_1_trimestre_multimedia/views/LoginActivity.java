@@ -2,6 +2,7 @@ package com.example.practica_1_trimestre_multimedia.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +22,13 @@ public class LoginActivity extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).hide();
         goBackButton = (Button) findViewById(R.id.goBackMainLButton);
         goBackButton.setOnClickListener(view -> finish());
+        enterButton = (Button) findViewById(R.id.enterLoginButton);
+        enterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+            }
+        });
 //        DataBaseHelper dbHelper = new DataBaseHelper(LoginActivity.this);
 //        SQLiteDatabase db = dbHelper.getWritableDatabase();
 //        if (db != null) {
