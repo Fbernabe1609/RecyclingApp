@@ -5,15 +5,15 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.practica_1_trimestre_multimedia.models.DatabaseHelper;
+import com.example.practica_1_trimestre_multimedia.models.DataBaseHelper;
 import com.example.practica_1_trimestre_multimedia.models.User;
 
 public class DataBaseController {
 
-    static DatabaseHelper dataBase;
+    static DataBaseHelper dataBase;
 
     public static void startDataBase(Context context) {
-        dataBase = new DatabaseHelper(context);
+        dataBase = new DataBaseHelper(context);
     }
 
     public static boolean addUser(User user, SQLiteDatabase db) {

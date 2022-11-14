@@ -2739,7 +2739,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2812,6 +2811,12 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTextEmailAddress
+id editTextTextPassword
+id editTextTextPassword2
+id editTextTextPassword3
+id editTextTextPersonName
+id editTextTextPersonName2
 id edit_query
 id elastic
 id embed
@@ -2819,6 +2824,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id enterLoginButton
+id enterRegisterButton
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2841,6 +2848,8 @@ id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id goBackMainLButton
+id goBackMainRButton
 id gone
 id graph
 id graph_wrap
@@ -2983,6 +2992,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registerButton
+id registerText
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3073,6 +3084,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3243,7 +3255,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_home
+layout activity_login
 layout activity_main
+layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3362,6 +3377,10 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string confirmar_contrase_a
+string contrase_a
+string email
+string entrar
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -3459,6 +3478,7 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string nombre_de_usuario
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -3467,6 +3487,7 @@ string path_password_strike_through
 string registrarse
 string search_menu_title
 string status_bar_notification_info_overflow
+string volver
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

@@ -7,4 +7,8 @@ public class UserController {
     public static void createUser(String username, String email, String password) {
         user = new User(username, email,password);
     }
+
+    public static User getUser() {
+        return user;
+    }
 }
