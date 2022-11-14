@@ -28,8 +28,8 @@ public class HomeActivity extends AppCompatActivity {
         user = (TextView) findViewById(R.id.textView4);
         user.setText(UserController.getUsername());
         points = (TextView) findViewById(R.id.textView5);
-        String text = (String) points.getText();
-        points.setText(text + UserController.getUserPoints());
+        String text = points.getText().toString();
+        points.setText(text + " " + UserController.getUserPoints());
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).commit();
         bottomNavigationView.setOnItemSelectedListener(item -> {

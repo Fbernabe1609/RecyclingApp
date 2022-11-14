@@ -24,10 +24,6 @@
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-42:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-40:/layout_activity_home.xml.flat",
-        "source": "com.example.practica_1_trimestre_multimedia.app-main-42:/layout/activity_home.xml"
-    },
-    {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -82,6 +78,10 @@
     {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-40:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-42:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-40:/layout_fragment_rewards.xml.flat",
+        "source": "com.example.practica_1_trimestre_multimedia.app-main-42:/layout/fragment_rewards.xml"
     },
     {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-40:\\layout_fragment_settings.xml.flat",

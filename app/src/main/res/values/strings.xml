@@ -18,4 +18,9 @@
     <string name="perfil">Perfil</string>
     <string name="usuario">Usuario</string>
     <string name="puntos">Puntos:</string>
+    <string name="borrar_reciclado">Borrar reciclado</string>
+    <string name="proximamente">Proximamente</string>
+    <string name="borrar_cuenta">Borrar cuenta</string>
+    <string name="cambiar_email">Cambiar Email</string>
+    <string name="cambiar_contrase_a">Cambiar contraseña</string>
 </resources>
