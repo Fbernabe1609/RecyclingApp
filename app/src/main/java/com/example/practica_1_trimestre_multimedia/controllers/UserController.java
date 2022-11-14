@@ -13,6 +13,6 @@ public class UserController {
     }
 
     public static void editUserPoints(int points) {
-        user.setPoints(points);
+        user.setPoints(user.getPoints() + points);
     }
 }
