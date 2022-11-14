@@ -2603,6 +2603,7 @@ int drawable design_ic_visibility 0x7f07007e
 int drawable design_ic_visibility_off 0x7f07007f
 int drawable design_password_eye 0x7f070080
 int drawable design_snackbar_background 0x7f070081
+int drawable ic_baseline_person_24 0x7f0700d6
 int drawable ic_clock_black_24dp 0x7f070082
 int drawable ic_home_black_24dp 0x7f070083
 int drawable ic_keyboard_black_24dp 0x7f070084
@@ -2748,12 +2749,16 @@ int id action_bar_title 0x7f080039
 int id action_container 0x7f08003a
 int id action_context_bar 0x7f08003b
 int id action_divider 0x7f08003c
+int id action_homeFragment3_to_rewardsFragment 0x7f0801fb
 int id action_image 0x7f08003d
 int id action_menu_divider 0x7f08003e
 int id action_menu_presenter 0x7f08003f
 int id action_mode_bar 0x7f080040
 int id action_mode_bar_stub 0x7f080041
 int id action_mode_close_button 0x7f080042
+int id action_rewardsFragment_to_homeFragment3 0x7f0801fc
+int id action_rewardsFragment_to_settingsFragment 0x7f0801fd
+int id action_settingsFragment_to_rewardsFragment 0x7f0801fe
 int id action_text 0x7f080043
 int id actions 0x7f080044
 int id activity_chooser_view_content 0x7f080045
@@ -2787,7 +2792,10 @@ int id bounce 0x7f080060
 int id bounceBoth 0x7f080061
 int id bounceEnd 0x7f080062
 int id bounceStart 0x7f080063
+int id button 0x7f0801ff
 int id button2 0x7f080064
+int id button3 0x7f080200
+int id button4 0x7f080201
 int id buttonPanel 0x7f080065
 int id cache_measures 0x7f080066
 int id callMeasure 0x7f080067
@@ -2889,7 +2897,6 @@ int id fixed 0x7f0800c6
 int id flip 0x7f0800c7
 int id floating 0x7f0800c8
 int id forever 0x7f0800c9
-int id fragmentContainerView4 0x7f0800ca
 int id fragment_container_view_tag 0x7f0800cb
 int id frost 0x7f0800cc
 int id fullscreen_header 0x7f0800cd
@@ -2908,6 +2915,7 @@ int id header_title 0x7f0800d9
 int id hideable 0x7f0800da
 int id home 0x7f0800db
 int id homeAsUp 0x7f0800dc
+int id homeFragment3 0x7f080202
 int id honorRequest 0x7f0800dd
 int id horizontal_only 0x7f0800de
 int id icon 0x7f0800df
@@ -2997,6 +3005,7 @@ int id mtrl_picker_text_input_range_start 0x7f080132
 int id mtrl_picker_title_text 0x7f080133
 int id mtrl_view_tag_bottom_padding 0x7f080134
 int id multiply 0x7f080135
+int id my_nav 0x7f080203
 int id nav_controller_view_tag 0x7f080136
 int id nav_host_fragment_container 0x7f080137
 int id navigation_bar_item_active_indicator_view 0x7f080138
@@ -3049,6 +3058,8 @@ int id recycleButton 0x7f080166
 int id registerButton 0x7f080167
 int id registerText 0x7f080168
 int id reverseSawtooth 0x7f080169
+int id rewards 0x7f080206
+int id rewardsFragment 0x7f080204
 int id right 0x7f08016a
 int id rightToLeft 0x7f08016b
 int id right_icon 0x7f08016c
@@ -3079,6 +3090,8 @@ int id search_voice_btn 0x7f080184
 int id select_dialog_listview 0x7f080185
 int id selected 0x7f080186
 int id selection_type 0x7f080187
+int id settings 0x7f080207
+int id settingsFragment 0x7f080205
 int id sharedValueSet 0x7f080188
 int id sharedValueUnset 0x7f080189
 int id shortcut 0x7f08018a
@@ -3338,6 +3351,9 @@ int layout design_navigation_menu_item 0x7f0b002d
 int layout design_text_input_end_icon 0x7f0b002e
 int layout design_text_input_start_icon 0x7f0b002f
 int layout fragment_home 0x7f0b0030
+int layout fragment_rewards 0x7f0b006b
+int layout fragment_settings 0x7f0b006c
+int layout fragment_user 0x7f0b006d
 int layout m3_alert_dialog 0x7f0b0031
 int layout m3_alert_dialog_actions 0x7f0b0032
 int layout m3_alert_dialog_title 0x7f0b0033
@@ -3399,6 +3415,7 @@ int layout support_simple_spinner_dropdown_item 0x7f0b006a
 int menu menu_bar 0x7f0d0000
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
+int navigation my_nav 0x7f140000
 int plurals mtrl_badge_content_description 0x7f0f0000
 int string abc_action_bar_home_description 0x7f100000
 int string abc_action_bar_up_description 0x7f100001
@@ -3553,6 +3570,7 @@ int string path_password_eye 0x7f100095
 int string path_password_eye_mask_strike_through 0x7f100096
 int string path_password_eye_mask_visible 0x7f100097
 int string path_password_strike_through 0x7f100098
+int string perfil 0x7f10009f
 int string premios 0x7f100099
 int string registrarse 0x7f10009a
 int string search_menu_title 0x7f10009b

@@ -2604,6 +2604,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_baseline_person_24
 drawable ic_clock_black_24dp
 drawable ic_home_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2749,12 +2750,16 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_homeFragment3_to_rewardsFragment
 id action_image
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_rewardsFragment_to_homeFragment3
+id action_rewardsFragment_to_settingsFragment
+id action_settingsFragment_to_rewardsFragment
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2788,7 +2793,10 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button
 id button2
+id button3
+id button4
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2890,7 +2898,6 @@ id fixed
 id flip
 id floating
 id forever
-id fragmentContainerView4
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -2909,6 +2916,7 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id homeFragment3
 id honorRequest
 id horizontal_only
 id icon
@@ -2998,6 +3006,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id my_nav
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_bar_item_active_indicator_view
@@ -3050,6 +3059,8 @@ id recycleButton
 id registerButton
 id registerText
 id reverseSawtooth
+id rewards
+id rewardsFragment
 id right
 id rightToLeft
 id right_icon
@@ -3080,6 +3091,8 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id settings
+id settingsFragment
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3339,6 +3352,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
+layout fragment_rewards
+layout fragment_settings
+layout fragment_user
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3400,6 +3416,7 @@ layout support_simple_spinner_dropdown_item
 menu menu_bar
 mipmap ic_launcher
 mipmap ic_launcher_round
+navigation my_nav
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3554,6 +3571,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string perfil
 string premios
 string registrarse
 string search_menu_title
