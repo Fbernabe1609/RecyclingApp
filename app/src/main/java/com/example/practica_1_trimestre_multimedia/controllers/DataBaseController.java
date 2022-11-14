@@ -36,7 +36,7 @@ public class DataBaseController {
         return returned;
     }
 
-    public boolean checkUserLogin(String username, String password, SQLiteDatabase db) {
+    public static boolean checkUserLogin(String username, String password, SQLiteDatabase db) {
 
         boolean returned;
 
@@ -60,7 +60,7 @@ public class DataBaseController {
         return returned;
     }
 
-    public boolean checkEmail(String email, SQLiteDatabase db) {
+    public static boolean checkEmail(String email, SQLiteDatabase db) {
 
         boolean returned;
 
@@ -84,7 +84,7 @@ public class DataBaseController {
         return returned;
     }
 
-    public boolean checkUsername(String username, SQLiteDatabase db) {
+    public static boolean checkUsername(String username, SQLiteDatabase db) {
 
         boolean returned;
 
@@ -108,7 +108,7 @@ public class DataBaseController {
         return returned;
     }
 
-    public int checkUserRegister(String email, String username, SQLiteDatabase db) {
+    public static int checkUserRegister(String email, String username, SQLiteDatabase db) {
 
         int returned;
 
@@ -127,5 +127,9 @@ public class DataBaseController {
         }
 
         return returned;
+    }
+
+    public static DataBaseHelper getDataBase() {
+        return dataBase;
     }
 }
