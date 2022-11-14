@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DataBaseHelper extends SQLiteOpenHelper {
 
     private static final int DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME = "RecyclingApp.db";
+    private static final String DATABASE_NAME = "Recycling-App.db";
     private final String TABLE_USER = "users";
 
     private final String COLUMN_ID = "id";

@@ -7,9 +7,12 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.practica_1_trimestre_multimedia.R;
 import com.example.practica_1_trimestre_multimedia.controllers.DataBaseController;
+import com.example.practica_1_trimestre_multimedia.controllers.ValidationData;
 
 import java.util.Objects;
 
@@ -27,26 +30,21 @@ public class LoginActivity extends AppCompatActivity {
         goBackButton.setOnClickListener(view -> finish());
         enterButton = (Button) findViewById(R.id.enterLoginButton);
         SQLiteDatabase db = DataBaseController.getDataBase().getWritableDatabase();
-        enterButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+        enterButton.setOnClickListener(view -> {
+            if (db != null) {
+                if (ValidationData.isTextFilled((EditText)findViewById(R.id.usernameLField)) && ValidationData.isTextFilled((EditText)findViewById(R.id.passwordLField))) {
+                    if (DataBaseController.checkUserLogin(((EditText)findViewById(R.id.usernameLField)).getText().toString(), ((EditText)findViewById(R.id.passwordLField)).getText().toString(), db)) {
+                        startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+                    } else {
+                        Toast.makeText(LoginActivity.this, "No hay ningún usario con esos datos.", Toast.LENGTH_LONG).show();
+                    }
+                } else {
+
+                    Toast.makeText(LoginActivity.this, "Debe escribir en todos los campos.", Toast.LENGTH_LONG).show();
+                }
+            } else {
+                Toast.makeText(LoginActivity.this, "Error: Base de datos no creada", Toast.LENGTH_LONG).show();
             }
         });
-
-//        if (db != null) {
-//            if (validation.isTextFilled((EditText)findViewById(R.id.editTextUsername)) && validation.isTextFilled((EditText)findViewById(R.id.editTextPassword))) {
-//                if (dbHelper.checkUserLogin(((EditText)findViewById(R.id.editTextUsername)).getText().toString(), ((EditText)findViewById(R.id.editTextPassword)).getText().toString(), db)) {
-//                    startActivity(new Intent(LoginActivity.this, HomeActivity.class));
-//                } else {
-//                    Toast.makeText(MainActivity.this, "No hay ningún usario con esos datos.", Toast.LENGTH_LONG).show();
-//                }
-//            } else {
-//
-//                Toast.makeText(MainActivity.this, "Debe escribir en todos los campos.", Toast.LENGTH_LONG).show();
-//            }
-//        } else {
-//            Toast.makeText(MainActivity.this, "Error: Base de datos no creada", Toast.LENGTH_LONG).show();
-//        }
     }
 }
