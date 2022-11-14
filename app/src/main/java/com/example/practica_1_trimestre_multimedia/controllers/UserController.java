@@ -11,4 +11,8 @@ public class UserController {
     public static User getUser() {
         return user;
     }
+
+    public static void editUserPoints(int points) {
+        user.setPoints(points);
+    }
 }
