@@ -45,6 +45,10 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         return COLUMN_PASSWORD;
     }
 
+    public String getCOLUMN_POINTS() {
+        return COLUMN_POINTS;
+    }
+
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL(CREATE_TABLE);
