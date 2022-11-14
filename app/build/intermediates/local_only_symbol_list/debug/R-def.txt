@@ -71,8 +71,10 @@ string nombre_de_usuario
 string nuevo_reciclaje
 string perfil
 string premios
+string puntos
 string registrarse
 string title_home
+string usuario
 string volver
 style Theme.Practica1TrimestreMultimedia
 xml backup_rules

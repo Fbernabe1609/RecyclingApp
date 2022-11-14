@@ -8,6 +8,10 @@ import android.database.sqlite.SQLiteDatabase;
 import com.example.practica_1_trimestre_multimedia.models.DataBaseHelper;
 import com.example.practica_1_trimestre_multimedia.models.User;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 public class DataBaseController {
 
     static DataBaseHelper dataBase;
@@ -131,5 +135,51 @@ public class DataBaseController {
 
     public static DataBaseHelper getDataBase() {
         return dataBase;
+    }
+
+    public static String selectEmail(String username, SQLiteDatabase db) {
+        String[] columns = {
+                dataBase.getCOLUMN_EMAIL()
+        };
+        String[] selectionArgs = {
+                username
+        };
+        String selection = dataBase.getCOLUMN_USERNAME() + " = ?";
+        Cursor cursor = db.query(
+                dataBase.getTABLE_USER(),
+                columns,
+                selection,
+                selectionArgs,
+                null,
+                null,
+                null
+        );
+        cursor.moveToFirst();
+        return cursor.getString(0);
+    }
+
+    public static int selectPoints(String username, SQLiteDatabase db) {
+        String[] columns = {
+                dataBase.getCOLUMN_POINTS()
+        };
+        String[] selectionArgs = {
+                username
+        };
+        String selection = dataBase.getCOLUMN_USERNAME() + " = ?";
+        Cursor cursor = db.query(
+                dataBase.getTABLE_USER(),
+                columns,
+                selection,
+                selectionArgs,
+                null,
+                null,
+                null
+        );
+        cursor.moveToFirst();
+        return cursor.getInt(0);
+    }
+
+    public static void userLogin(String username, String password, SQLiteDatabase db) {
+        UserController.createUserLogin(username,selectEmail(username,db),password);
     }
 }

@@ -21,8 +21,10 @@
     <string name="nuevo_reciclaje">Nuevo reciclaje</string>
     <string name="perfil">Perfil</string>
     <string name="premios">Premios</string>
+    <string name="puntos">Puntos:</string>
     <string name="registrarse">Registrarse</string>
     <string name="title_home">Home</string>
+    <string name="usuario">Usuario</string>
     <string name="volver">Volver</string>
     <style name="Theme.Practica1TrimestreMultimedia" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         

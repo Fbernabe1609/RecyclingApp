@@ -3567,10 +3567,12 @@ int string path_password_eye_mask_visible 0x7f110097
 int string path_password_strike_through 0x7f110098
 int string perfil 0x7f110099
 int string premios 0x7f11009a
+int string puntos 0x7f1100a0
 int string registrarse 0x7f11009b
 int string search_menu_title 0x7f11009c
 int string status_bar_notification_info_overflow 0x7f11009d
 int string title_home 0x7f11009e
+int string usuario 0x7f1100a1
 int string volver 0x7f11009f
 int style AlertDialog_AppCompat 0x7f120000
 int style AlertDialog_AppCompat_Light 0x7f120001

@@ -5,7 +5,7 @@ import com.example.practica_1_trimestre_multimedia.models.User;
 public class UserController {
     static User user;
     public static void createUser(String username, String email, String password) {
-        user = new User(username, email,password);
+        user = new User(username, email, password);
     }
 
     public static User getUser() {
@@ -14,5 +14,17 @@ public class UserController {
 
     public static void editUserPoints(int points) {
         user.setPoints(user.getPoints() + points);
+    }
+
+    public static String getUsername() {
+        return user.getUsername();
+    }
+
+    public static int getUserPoints() {
+        return user.getPoints();
+    }
+
+    public static void createUserLogin(String username, String password, String email) {
+        user = new User(username, email,password);
     }
 }
