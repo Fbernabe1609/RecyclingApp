@@ -57,6 +57,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                                     Toast.makeText(RegisterActivity.this, "Usuario creado exitosamente.", Toast.LENGTH_LONG).show();
                                     startActivity(new Intent(RegisterActivity.this, HomeActivity.class));
+                                    finish();
                                 } else {
 
                                     Toast.makeText(RegisterActivity.this, "No se ha podido crear el usuario.", Toast.LENGTH_LONG).show();

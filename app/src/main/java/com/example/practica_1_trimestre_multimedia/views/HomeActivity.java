@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.practica_1_trimestre_multimedia.R;
 import com.example.practica_1_trimestre_multimedia.controllers.UserController;
@@ -11,7 +12,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.Objects;
 
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity implements HomeInterface {
 
     BottomNavigationView bottomNavigationView;
     HomeFragment homeFragment = new HomeFragment();
@@ -26,10 +27,10 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         Objects.requireNonNull(getSupportActionBar()).hide();
         user = (TextView) findViewById(R.id.textView4);
-        user.setText(UserController.getUsername());
+        user.setText(UserController.getUser().getUsername());
         points = (TextView) findViewById(R.id.textView5);
         String text = points.getText().toString();
-        points.setText(text + " " + UserController.getUserPoints());
+        points.setText(text + " " + UserController.getUser().getPoints());
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).commit();
         bottomNavigationView.setOnItemSelectedListener(item -> {
@@ -46,6 +47,17 @@ public class HomeActivity extends AppCompatActivity {
             }
             return false;
         });
+    }
+
+    @Override
+    public void finishFragment() {
+        Toast.makeText(HomeActivity.this, "Se ha borrado el usuario.", Toast.LENGTH_LONG).show();
+        finish();
+    }
+
+    @Override
+    public void error() {
+        Toast.makeText(HomeActivity.this, "Error: no se ha podido eliminar al usuario.", Toast.LENGTH_LONG).show();
     }
 }
 

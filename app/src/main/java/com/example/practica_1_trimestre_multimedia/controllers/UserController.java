@@ -16,14 +16,6 @@ public class UserController {
         user.setPoints(user.getPoints() + points);
     }
 
-    public static String getUsername() {
-        return user.getUsername();
-    }
-
-    public static int getUserPoints() {
-        return user.getPoints();
-    }
-
     public static void createUserLogin(String username, String password, String email) {
         user = new User(username, email,password);
     }

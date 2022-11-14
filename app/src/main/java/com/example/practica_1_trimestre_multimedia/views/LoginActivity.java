@@ -37,6 +37,7 @@ public class LoginActivity extends AppCompatActivity {
                         DataBaseController.userLogin(((EditText)findViewById(R.id.usernameLField)).getText().toString(), ((EditText)findViewById(R.id.passwordLField)).getText().toString(), db);
                         UserController.getUser().setPoints(DataBaseController.selectPoints(((EditText)findViewById(R.id.usernameLField)).getText().toString(),db));
                         startActivity(new Intent(LoginActivity.this, HomeActivity.class));
+                        finish();
                     } else {
                         Toast.makeText(LoginActivity.this, "No hay ningún usario con esos datos.", Toast.LENGTH_LONG).show();
                     }

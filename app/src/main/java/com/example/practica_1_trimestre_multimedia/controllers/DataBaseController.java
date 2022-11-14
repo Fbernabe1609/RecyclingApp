@@ -182,4 +182,19 @@ public class DataBaseController {
     public static void userLogin(String username, String password, SQLiteDatabase db) {
         UserController.createUserLogin(username,selectEmail(username,db),password);
     }
+
+    public static int deleteUser(SQLiteDatabase db) {
+        String[] columns = {
+                dataBase.getCOLUMN_USERNAME()
+        };
+        String[] selectionArgs = {
+                UserController.getUser().getUsername()
+        };
+        String selection = dataBase.getCOLUMN_USERNAME() + " = ?";
+        return db.delete(
+                dataBase.getTABLE_USER(),
+                selection,
+                selectionArgs
+        );
+    }
 }
