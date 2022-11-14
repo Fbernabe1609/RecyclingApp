@@ -14,10 +14,11 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     private final String COLUMN_USERNAME = "username";
     private final String COLUMN_EMAIL = "email";
     private final String COLUMN_PASSWORD = "password";
+    private final String COLUMN_POINTS = "points";
 
     private final String CREATE_TABLE = "CREATE TABLE " + TABLE_USER + "(" + COLUMN_ID +
             " INTEGER PRIMARY KEY AUTOINCREMENT," + COLUMN_USERNAME + " TEXT UNIQUE," + COLUMN_EMAIL +
-            " TEXT UNIQUE," + COLUMN_PASSWORD + " TEXT" + ")";
+            " TEXT UNIQUE," + COLUMN_PASSWORD + " TEXT," + COLUMN_POINTS + " TEXT" + ")";
     private final String DROP_TABLE = "DROP TABLE IF EXISTS " + TABLE_USER;
 
     public DataBaseHelper(Context context) {
