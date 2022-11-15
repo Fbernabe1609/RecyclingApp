@@ -83,12 +83,12 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
 
     @Override
     public void errorEditPassword() {
-
+        Toast.makeText(HomeActivity.this, "No se ha podido cambiar la contraseña.", Toast.LENGTH_LONG).show();
     }
 
     @Override
     public void errorEditEmail() {
-
+        Toast.makeText(HomeActivity.this, "No se ha podido cambiar el email.", Toast.LENGTH_LONG).show();
     }
 }
 
