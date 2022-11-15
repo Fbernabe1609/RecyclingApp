@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-42:\\layout\\fragment_rewards.xml"
     },
     {
+        "merged": "com.example.practica_1_trimestre_multimedia.app-mergeDebugResources-39:/layout/fragment_home.xml",
+        "source": "com.example.practica_1_trimestre_multimedia.app-main-42:/layout/fragment_home.xml"
+    },
+    {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-mergeDebugResources-39:\\layout\\activity_main.xml",
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-42:\\layout\\activity_main.xml"
     },
@@ -30,5 +34,9 @@
     {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-mergeDebugResources-39:\\layout\\activity_home.xml",
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-42:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "com.example.practica_1_trimestre_multimedia.app-mergeDebugResources-39:/layout/fragment_settings.xml",
+        "source": "com.example.practica_1_trimestre_multimedia.app-main-42:/layout/fragment_settings.xml"
     }
 ]

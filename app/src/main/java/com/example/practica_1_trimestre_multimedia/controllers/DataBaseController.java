@@ -8,10 +8,6 @@ import android.database.sqlite.SQLiteDatabase;
 import com.example.practica_1_trimestre_multimedia.models.DataBaseHelper;
 import com.example.practica_1_trimestre_multimedia.models.User;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-
 public class DataBaseController {
 
     static DataBaseHelper dataBase;
@@ -193,6 +189,21 @@ public class DataBaseController {
         String selection = dataBase.getCOLUMN_USERNAME() + " = ?";
         return db.delete(
                 dataBase.getTABLE_USER(),
+                selection,
+                selectionArgs
+        );
+    }
+
+    public static int updateUserPoints(SQLiteDatabase db) {
+        ContentValues valoresParaActualizar = new ContentValues();
+        valoresParaActualizar.put(dataBase.getCOLUMN_POINTS(), UserController.getUser().getPoints());
+        String[] selectionArgs = {
+                UserController.getUser().getUsername()
+        };
+        String selection = dataBase.getCOLUMN_USERNAME() + " = ?";
+        return db.update(
+                dataBase.getTABLE_USER(),
+                valoresParaActualizar,
                 selection,
                 selectionArgs
         );

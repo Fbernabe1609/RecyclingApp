@@ -20,15 +20,15 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button2;
+  public final Button deleteRecycleButton;
 
   @NonNull
   public final Button recycleButton;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull Button button2,
-      @NonNull Button recycleButton) {
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button deleteRecycleButton, @NonNull Button recycleButton) {
     this.rootView = rootView;
-    this.button2 = button2;
+    this.deleteRecycleButton = deleteRecycleButton;
     this.recycleButton = recycleButton;
   }
 
@@ -59,9 +59,9 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button2;
-      Button button2 = ViewBindings.findChildViewById(rootView, id);
-      if (button2 == null) {
+      id = R.id.deleteRecycleButton;
+      Button deleteRecycleButton = ViewBindings.findChildViewById(rootView, id);
+      if (deleteRecycleButton == null) {
         break missingId;
       }
 
@@ -71,7 +71,8 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, button2, recycleButton);
+      return new FragmentHomeBinding((ConstraintLayout) rootView, deleteRecycleButton,
+          recycleButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

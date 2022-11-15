@@ -56,8 +56,23 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
     }
 
     @Override
-    public void error() {
+    public void errorDelete() {
         Toast.makeText(HomeActivity.this, "Error: no se ha podido eliminar al usuario.", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void lessThanZero() {
+        Toast.makeText(HomeActivity.this, "No pueden bajar más tus puntos.", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void editPointsText() {
+        points.setText("Puntos: " + UserController.getUser().getPoints());
+    }
+
+    @Override
+    public void errorEditPoints() {
+        Toast.makeText(HomeActivity.this, "Error: no pueden se han podido actualizar los puntos.", Toast.LENGTH_LONG).show();
     }
 }
 

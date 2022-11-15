@@ -20,20 +20,21 @@ public final class FragmentSettingsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button button;
+  public final Button changeEmailButton;
 
   @NonNull
-  public final Button button3;
+  public final Button changePasswordButton;
 
   @NonNull
-  public final Button button4;
+  public final Button deleteAccountButton;
 
-  private FragmentSettingsBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
-      @NonNull Button button3, @NonNull Button button4) {
+  private FragmentSettingsBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button changeEmailButton, @NonNull Button changePasswordButton,
+      @NonNull Button deleteAccountButton) {
     this.rootView = rootView;
-    this.button = button;
-    this.button3 = button3;
-    this.button4 = button4;
+    this.changeEmailButton = changeEmailButton;
+    this.changePasswordButton = changePasswordButton;
+    this.deleteAccountButton = deleteAccountButton;
   }
 
   @Override
@@ -63,25 +64,26 @@ public final class FragmentSettingsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
+      id = R.id.changeEmailButton;
+      Button changeEmailButton = ViewBindings.findChildViewById(rootView, id);
+      if (changeEmailButton == null) {
         break missingId;
       }
 
-      id = R.id.button3;
-      Button button3 = ViewBindings.findChildViewById(rootView, id);
-      if (button3 == null) {
+      id = R.id.changePasswordButton;
+      Button changePasswordButton = ViewBindings.findChildViewById(rootView, id);
+      if (changePasswordButton == null) {
         break missingId;
       }
 
-      id = R.id.button4;
-      Button button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
+      id = R.id.deleteAccountButton;
+      Button deleteAccountButton = ViewBindings.findChildViewById(rootView, id);
+      if (deleteAccountButton == null) {
         break missingId;
       }
 
-      return new FragmentSettingsBinding((ConstraintLayout) rootView, button, button3, button4);
+      return new FragmentSettingsBinding((ConstraintLayout) rootView, changeEmailButton,
+          changePasswordButton, deleteAccountButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-pngs-35:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-40:/layout_fragment_settings.xml.flat",
+        "source": "com.example.practica_1_trimestre_multimedia.app-main-42:/layout/fragment_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-40:\\drawable_ic_home_black_24dp.xml.flat",
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-42:\\drawable\\ic_home_black_24dp.xml"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-40:\\drawable-v24_logo.png.flat",
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-42:\\drawable-v24\\logo.png"
+    },
+    {
+        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-40:/layout_fragment_home.xml.flat",
+        "source": "com.example.practica_1_trimestre_multimedia.app-main-42:/layout/fragment_home.xml"
     },
     {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-40:\\xml_data_extraction_rules.xml.flat",

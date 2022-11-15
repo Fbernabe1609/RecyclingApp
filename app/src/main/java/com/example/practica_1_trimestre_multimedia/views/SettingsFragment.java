@@ -35,7 +35,7 @@ public class SettingsFragment extends Fragment {
             if (DataBaseController.deleteUser(db) != -1) {
                 homeInterface.finishFragment();
             } else {
-                homeInterface.error();
+                homeInterface.errorDelete();
             }
         });
         return view;

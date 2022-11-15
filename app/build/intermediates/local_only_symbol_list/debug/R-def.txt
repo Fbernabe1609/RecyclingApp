@@ -14,13 +14,13 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
 id bottomNavigationView
-id button
-id button2
-id button3
-id button4
+id changeEmailButton
+id changePasswordButton
 id confirmPasswordField
 id constraintLayout
 id container
+id deleteAccountButton
+id deleteRecycleButton
 id emailField
 id enterLoginButton
 id enterRegisterButton
@@ -61,6 +61,10 @@ navigation my_nav
 string ajustes
 string app_name
 string bienvenido_a_recycling
+string borrar_cuenta
+string borrar_reciclado
+string cambiar_contrase_a
+string cambiar_email
 string confirmar_contrase_a
 string contrase_a
 string email
@@ -72,6 +76,7 @@ string nombre_de_usuario
 string nuevo_reciclaje
 string perfil
 string premios
+string proximamente
 string puntos
 string registrarse
 string title_home
