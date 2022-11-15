@@ -19,6 +19,7 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
     RewardsFragment rewardsFragment = new RewardsFragment();
     SettingsFragment settingsFragment = new SettingsFragment();
     ProfileFragment profileFragment = new ProfileFragment();
+    MapFragment mapFragment = new MapFragment();
 
     TextView user, points;
 
@@ -44,6 +45,9 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
                     return true;
                 case R.id.settings:
                     getSupportFragmentManager().beginTransaction().replace(R.id.container, settingsFragment).commit();
+                    return true;
+                case R.id.map:
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container, mapFragment).commit();
                     return true;
             }
             return false;
