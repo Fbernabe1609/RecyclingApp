@@ -2869,6 +2869,7 @@ int id east 0x7f0800b1
 int id edit_query 0x7f0800b2
 int id elastic 0x7f0800b3
 int id emailField 0x7f0800b4
+int id emailTextView 0x7f080209
 int id embed 0x7f0800b5
 int id end 0x7f0800b6
 int id endToStart 0x7f0800b7
@@ -3036,6 +3037,7 @@ int id parentRelative 0x7f080158
 int id parent_matrix 0x7f080159
 int id passwordLField 0x7f08015a
 int id passwordRField 0x7f08015b
+int id passwordTextView 0x7f080208
 int id password_toggle 0x7f08015c
 int id path 0x7f08015d
 int id pathRelative 0x7f08015e
@@ -3152,12 +3154,10 @@ int id textSpacerNoTitle 0x7f0801cc
 int id textStart 0x7f0801cd
 int id textTop 0x7f0801ce
 int id textView 0x7f0801cf
-int id textView2 0x7f0801d0
 int id textView3 0x7f0801d1
 int id textView4 0x7f0801d2
 int id textView5 0x7f0801d3
 int id textView6 0x7f0801d4
-int id textView7 0x7f0801d5
 int id text_input_end_icon 0x7f0801d6
 int id text_input_error_icon 0x7f0801d7
 int id text_input_start_icon 0x7f0801d8
@@ -3466,6 +3466,7 @@ int string character_counter_pattern 0x7f11002c
 int string clear_text_end_icon_content_description 0x7f11002d
 int string confirmar_contrase_a 0x7f11002e
 int string contrase_a 0x7f11002f
+int string contrase_a2 0x7f1100a9
 int string correo 0x7f110030
 int string email 0x7f110031
 int string entrar 0x7f110032

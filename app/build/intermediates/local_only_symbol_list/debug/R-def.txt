@@ -22,6 +22,7 @@ id container
 id deleteAccountButton
 id deleteRecycleButton
 id emailField
+id emailTextView
 id enterLoginButton
 id enterRegisterButton
 id goBackMainLButton
@@ -33,6 +34,7 @@ id loginButton
 id my_nav
 id passwordLField
 id passwordRField
+id passwordTextView
 id profileFragment
 id recycleButton
 id registerButton
@@ -43,12 +45,10 @@ id settings
 id settingsFragment
 id showButton
 id textView
-id textView2
 id textView3
 id textView4
 id textView5
 id textView6
-id textView7
 id usernameLField
 id usernameRField
 layout activity_home
@@ -72,6 +72,7 @@ string cambiar_contrase_a
 string cambiar_email
 string confirmar_contrase_a
 string contrase_a
+string contrase_a2
 string correo
 string email
 string entrar

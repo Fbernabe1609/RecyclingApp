@@ -2870,6 +2870,7 @@ id east
 id edit_query
 id elastic
 id emailField
+id emailTextView
 id embed
 id end
 id endToStart
@@ -3037,6 +3038,7 @@ id parentRelative
 id parent_matrix
 id passwordLField
 id passwordRField
+id passwordTextView
 id password_toggle
 id path
 id pathRelative
@@ -3153,12 +3155,10 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
 id textView3
 id textView4
 id textView5
 id textView6
-id textView7
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3467,6 +3467,7 @@ string character_counter_pattern
 string clear_text_end_icon_content_description
 string confirmar_contrase_a
 string contrase_a
+string contrase_a2
 string correo
 string email
 string entrar

@@ -20,16 +20,16 @@ public final class FragmentProfileBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textView2;
+  public final TextView emailTextView;
 
   @NonNull
-  public final TextView textView7;
+  public final TextView passwordTextView;
 
-  private FragmentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textView2,
-      @NonNull TextView textView7) {
+  private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView emailTextView, @NonNull TextView passwordTextView) {
     this.rootView = rootView;
-    this.textView2 = textView2;
-    this.textView7 = textView7;
+    this.emailTextView = emailTextView;
+    this.passwordTextView = passwordTextView;
   }
 
   @Override
@@ -59,19 +59,20 @@ public final class FragmentProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
+      id = R.id.emailTextView;
+      TextView emailTextView = ViewBindings.findChildViewById(rootView, id);
+      if (emailTextView == null) {
         break missingId;
       }
 
-      id = R.id.textView7;
-      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
-      if (textView7 == null) {
+      id = R.id.passwordTextView;
+      TextView passwordTextView = ViewBindings.findChildViewById(rootView, id);
+      if (passwordTextView == null) {
         break missingId;
       }
 
-      return new FragmentProfileBinding((ConstraintLayout) rootView, textView2, textView7);
+      return new FragmentProfileBinding((ConstraintLayout) rootView, emailTextView,
+          passwordTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
