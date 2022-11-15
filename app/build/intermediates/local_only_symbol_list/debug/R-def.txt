@@ -33,6 +33,7 @@ id loginButton
 id my_nav
 id passwordLField
 id passwordRField
+id profileFragment
 id recycleButton
 id registerButton
 id registerText
@@ -40,11 +41,14 @@ id rewards
 id rewardsFragment
 id settings
 id settingsFragment
+id showButton
 id textView
+id textView2
 id textView3
 id textView4
 id textView5
 id textView6
+id textView7
 id usernameLField
 id usernameRField
 layout activity_home
@@ -52,6 +56,7 @@ layout activity_login
 layout activity_main
 layout activity_register
 layout fragment_home
+layout fragment_profile
 layout fragment_rewards
 layout fragment_settings
 menu menu_bar
@@ -67,11 +72,13 @@ string cambiar_contrase_a
 string cambiar_email
 string confirmar_contrase_a
 string contrase_a
+string correo
 string email
 string entrar
 string hello_blank_fragment
 string login
 string logo_de_la_app
+string mostrar_datos
 string nombre_de_usuario
 string nuevo_reciclaje
 string perfil

@@ -28,13 +28,17 @@ public final class FragmentSettingsBinding implements ViewBinding {
   @NonNull
   public final Button deleteAccountButton;
 
+  @NonNull
+  public final Button showButton;
+
   private FragmentSettingsBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button changeEmailButton, @NonNull Button changePasswordButton,
-      @NonNull Button deleteAccountButton) {
+      @NonNull Button deleteAccountButton, @NonNull Button showButton) {
     this.rootView = rootView;
     this.changeEmailButton = changeEmailButton;
     this.changePasswordButton = changePasswordButton;
     this.deleteAccountButton = deleteAccountButton;
+    this.showButton = showButton;
   }
 
   @Override
@@ -82,8 +86,14 @@ public final class FragmentSettingsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.showButton;
+      Button showButton = ViewBindings.findChildViewById(rootView, id);
+      if (showButton == null) {
+        break missingId;
+      }
+
       return new FragmentSettingsBinding((ConstraintLayout) rootView, changeEmailButton,
-          changePasswordButton, deleteAccountButton);
+          changePasswordButton, deleteAccountButton, showButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

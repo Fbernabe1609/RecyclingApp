@@ -18,6 +18,7 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
     HomeFragment homeFragment = new HomeFragment();
     RewardsFragment rewardsFragment = new RewardsFragment();
     SettingsFragment settingsFragment = new SettingsFragment();
+    ProfileFragment profileFragment = new ProfileFragment();
 
     TextView user, points;
 
@@ -73,6 +74,21 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
     @Override
     public void errorEditPoints() {
         Toast.makeText(HomeActivity.this, "Error: no pueden se han podido actualizar los puntos.", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void profileUser() {
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, profileFragment).commit();
+    }
+
+    @Override
+    public void errorEditPassword() {
+
+    }
+
+    @Override
+    public void errorEditEmail() {
+
     }
 }
 

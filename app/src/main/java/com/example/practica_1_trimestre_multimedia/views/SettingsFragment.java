@@ -22,7 +22,7 @@ public class SettingsFragment extends Fragment {
     }
 
     View view;
-    Button delete;
+    Button delete, editPassword, editEmail, showData;
     Activity activity;
     HomeInterface homeInterface;
     @Override
@@ -31,6 +31,10 @@ public class SettingsFragment extends Fragment {
         view = inflater.inflate(R.layout.fragment_settings, container, false);
         SQLiteDatabase db = DataBaseController.getDataBase().getWritableDatabase();
         delete = view.findViewById(R.id.deleteAccountButton);
+        editEmail = view.findViewById(R.id.changeEmailButton);
+        editPassword = view.findViewById(R.id.changePasswordButton);
+        showData = view.findViewById(R.id.showButton);
+        showData.setOnClickListener(view -> homeInterface.profileUser());
         delete.setOnClickListener(view -> {
             if (DataBaseController.deleteUser(db) != -1) {
                 homeInterface.finishFragment();

@@ -6,4 +6,7 @@ public interface HomeInterface {
     void lessThanZero();
     void editPointsText();
     void errorEditPoints();
+    void profileUser();
+    void errorEditPassword();
+    void errorEditEmail();
 }

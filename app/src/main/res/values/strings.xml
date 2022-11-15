@@ -23,4 +23,6 @@
     <string name="borrar_cuenta">Borrar cuenta</string>
     <string name="cambiar_email">Cambiar Email</string>
     <string name="cambiar_contrase_a">Cambiar contraseña</string>
+    <string name="correo">Correo:</string>
+    <string name="mostrar_datos">Mostrar datos</string>
 </resources>

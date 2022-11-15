@@ -3046,6 +3046,7 @@ id pin
 id position
 id postLayout
 id pressed
+id profileFragment
 id progress_circular
 id progress_horizontal
 id radio
@@ -3092,6 +3093,7 @@ id settingsFragment
 id sharedValueSet
 id sharedValueUnset
 id shortcut
+id showButton
 id showCustom
 id showHome
 id showTitle
@@ -3151,10 +3153,12 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id textView3
 id textView4
 id textView5
 id textView6
+id textView7
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3349,6 +3353,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
+layout fragment_profile
 layout fragment_rewards
 layout fragment_settings
 layout m3_alert_dialog
@@ -3462,6 +3467,7 @@ string character_counter_pattern
 string clear_text_end_icon_content_description
 string confirmar_contrase_a
 string contrase_a
+string correo
 string email
 string entrar
 string error_a11y_label
@@ -3506,6 +3512,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string mostrar_datos
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name

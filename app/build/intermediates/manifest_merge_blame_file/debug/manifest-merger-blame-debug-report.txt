@@ -6,130 +6,138 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml
+8-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml
+9-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:5:5-49:19
+11-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:5:5-53:19
 12        android:allowBackup="true"
-12-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] C:\Users\Cliente\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.8.0] C:\Users\2 DAM\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:7:9-65
+14-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:7:9-65
 15        android:debuggable="true"
 16        android:fullBackupContent="@xml/backup_rules"
-16-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:8:9-54
+16-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:8:9-54
 17        android:icon="@drawable/logo"
-17-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:9:9-38
+17-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:9:9-38
 18        android:label="@string/app_name"
-18-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:10:9-41
+18-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:10:9-41
 19        android:roundIcon="@drawable/logo"
-19-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:11:9-43
+19-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:11:9-43
 20        android:supportsRtl="true"
-20-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:12:9-35
+20-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:12:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.Practica1TrimestreMultimedia" >
-22-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:13:9-66
+22-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:13:9-66
 23        <activity
-23-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:15:9-21:20
+23-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:15:9-22:20
 24            android:name="com.example.practica_1_trimestre_multimedia.views.HomeActivity"
-24-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:16:13-47
-25            android:exported="false" >
-25-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:17:13-37
-26            <meta-data
-26-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:18:13-20:36
-27                android:name="android.app.lib_name"
-27-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:19:17-52
-28                android:value="" />
-28-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:20:17-33
-29        </activity>
-30        <activity
-30-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:22:9-28:20
-31            android:name="com.example.practica_1_trimestre_multimedia.views.RegisterActivity"
-31-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:23:13-51
-32            android:exported="false" >
-32-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:24:13-37
-33            <meta-data
-33-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:18:13-20:36
-34                android:name="android.app.lib_name"
-34-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:19:17-52
-35                android:value="" />
-35-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:20:17-33
-36        </activity>
-37        <activity
-37-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:29:9-35:20
-38            android:name="com.example.practica_1_trimestre_multimedia.views.LoginActivity"
-38-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:30:13-48
-39            android:exported="true" >
-39-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:31:13-36
-40            <meta-data
-40-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:18:13-20:36
-41                android:name="android.app.lib_name"
-41-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:19:17-52
-42                android:value="" />
-42-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:20:17-33
-43        </activity>
-44        <activity
-44-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:36:9-48:20
-45            android:name="com.example.practica_1_trimestre_multimedia.MainActivity"
-45-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:37:13-41
-46            android:exported="true" >
-46-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:38:13-36
-47            <intent-filter>
-47-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:39:13-43:29
-48                <action android:name="android.intent.action.MAIN" />
-48-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:40:17-69
-48-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:40:25-66
-49
-50                <category android:name="android.intent.category.LAUNCHER" />
-50-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:42:17-77
-50-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:42:27-74
-51            </intent-filter>
-52
-53            <meta-data
-53-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:18:13-20:36
-54                android:name="android.app.lib_name"
-54-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:19:17-52
-55                android:value="" />
-55-->C:\Users\Cliente\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:20:17-33
-56        </activity>
-57
-58        <provider
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-59            android:name="androidx.startup.InitializationProvider"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-60            android:authorities="com.example.practica_1_trimestre_multimedia.androidx-startup"
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-61            android:exported="false" >
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-62            <meta-data
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-64                android:value="androidx.startup" />
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-65            <meta-data
-65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Cliente\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Cliente\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-67                android:value="androidx.startup" />
-67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Cliente\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-68        </provider>
-69
-70        <uses-library
-70-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-71            android:name="androidx.window.extensions"
-71-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-72            android:required="false" />
-72-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-73        <uses-library
-73-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-74            android:name="androidx.window.sidecar"
-74-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-75            android:required="false" />
-75-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-76    </application>
-77
-78</manifest>
+24-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:16:13-47
+25            android:exported="false"
+25-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:17:13-37
+26            android:screenOrientation="portrait" >
+26-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:18:13-51
+27            <meta-data
+27-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:19:13-21:36
+28                android:name="android.app.lib_name"
+28-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:20:17-52
+29                android:value="" />
+29-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:21:17-33
+30        </activity>
+31        <activity
+31-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:23:9-30:20
+32            android:name="com.example.practica_1_trimestre_multimedia.views.RegisterActivity"
+32-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:24:13-51
+33            android:exported="false"
+33-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:25:13-37
+34            android:screenOrientation="portrait" >
+34-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:26:13-51
+35            <meta-data
+35-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:19:13-21:36
+36                android:name="android.app.lib_name"
+36-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:20:17-52
+37                android:value="" />
+37-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:21:17-33
+38        </activity>
+39        <activity
+39-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:31:9-38:20
+40            android:name="com.example.practica_1_trimestre_multimedia.views.LoginActivity"
+40-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:32:13-48
+41            android:exported="true"
+41-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:33:13-36
+42            android:screenOrientation="portrait" >
+42-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:34:13-51
+43            <meta-data
+43-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:19:13-21:36
+44                android:name="android.app.lib_name"
+44-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:20:17-52
+45                android:value="" />
+45-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:21:17-33
+46        </activity>
+47        <activity
+47-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:39:9-52:20
+48            android:name="com.example.practica_1_trimestre_multimedia.MainActivity"
+48-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:40:13-41
+49            android:exported="true"
+49-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:41:13-36
+50            android:screenOrientation="portrait" >
+50-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:42:13-51
+51            <intent-filter>
+51-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:43:13-47:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:44:17-69
+52-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:44:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:46:17-77
+54-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:46:27-74
+55            </intent-filter>
+56
+57            <meta-data
+57-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:19:13-21:36
+58                android:name="android.app.lib_name"
+58-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:20:17-52
+59                android:value="" />
+59-->C:\Users\2 DAM\Desktop\Practica-1-Trimestre-Multimedia\app\src\main\AndroidManifest.xml:21:17-33
+60        </activity>
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+64            android:authorities="com.example.practica_1_trimestre_multimedia.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\2 DAM\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\2 DAM\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\2 DAM\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+72        </provider>
+73
+74        <uses-library
+74-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+75            android:name="androidx.window.extensions"
+75-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+76            android:required="false" />
+76-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+77        <uses-library
+77-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+78            android:name="androidx.window.sidecar"
+78-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+79            android:required="false" />
+79-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\073f10b23065a04cd4c659168bad23fb\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+80    </application>
+81
+82</manifest>
