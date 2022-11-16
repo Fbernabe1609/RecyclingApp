@@ -2669,6 +2669,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_map_24
 drawable ic_baseline_person_24
+drawable ic_baseline_settings_24
 drawable ic_clock_black_24dp
 drawable ic_home_black_24dp
 drawable ic_keyboard_black_24dp
@@ -3596,6 +3597,7 @@ string m3_sys_motion_easing_linear
 string m3_sys_motion_easing_standard
 string m3_sys_motion_easing_standard_accelerate
 string m3_sys_motion_easing_standard_decelerate
+string mapa
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection

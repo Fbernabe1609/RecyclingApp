@@ -10,6 +10,7 @@ color white
 drawable background
 drawable ic_baseline_map_24
 drawable ic_baseline_person_24
+drawable ic_baseline_settings_24
 drawable ic_home_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -91,6 +92,7 @@ string entrar
 string hello_blank_fragment
 string login
 string logo_de_la_app
+string mapa
 string mostrar_datos
 string nombre_de_usuario
 string nueva_contrase_a

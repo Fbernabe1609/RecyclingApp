@@ -2668,6 +2668,7 @@ int drawable googleg_disabled_color_18 0x7f070095
 int drawable googleg_standard_color_18 0x7f070096
 int drawable ic_baseline_map_24 0x7f070097
 int drawable ic_baseline_person_24 0x7f070098
+int drawable ic_baseline_settings_24 0x7f0700ed
 int drawable ic_clock_black_24dp 0x7f070099
 int drawable ic_home_black_24dp 0x7f07009a
 int drawable ic_keyboard_black_24dp 0x7f07009b
@@ -3595,6 +3596,7 @@ int string m3_sys_motion_easing_linear 0x7f110059
 int string m3_sys_motion_easing_standard 0x7f11005a
 int string m3_sys_motion_easing_standard_accelerate 0x7f11005b
 int string m3_sys_motion_easing_standard_decelerate 0x7f11005c
+int string mapa 0x7f1100c0
 int string material_clock_display_divider 0x7f11005d
 int string material_clock_toggle_content_description 0x7f11005e
 int string material_hour_selection 0x7f11005f
