@@ -1,6 +1,7 @@
 package com.example.practica_1_trimestre_multimedia.views;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -31,6 +32,7 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
         setContentView(R.layout.activity_home);
         Objects.requireNonNull(getSupportActionBar()).hide();
         user = (TextView) findViewById(R.id.textView4);
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         user.setText(UserController.getUser().getUsername());
         points = (TextView) findViewById(R.id.textView5);
         String text = points.getText().toString();

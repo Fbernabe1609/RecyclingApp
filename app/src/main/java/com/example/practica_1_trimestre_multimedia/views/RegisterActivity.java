@@ -1,6 +1,7 @@
 package com.example.practica_1_trimestre_multimedia.views;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -25,6 +26,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         Objects.requireNonNull(getSupportActionBar()).hide();
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         DataBaseController.startDataBase(RegisterActivity.this);
         goBackButton = (Button) findViewById(R.id.goBackMainRButton);
         goBackButton.setOnClickListener(view -> finish());

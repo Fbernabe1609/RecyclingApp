@@ -1,6 +1,7 @@
 package com.example.practica_1_trimestre_multimedia.views;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -26,6 +27,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         Objects.requireNonNull(getSupportActionBar()).hide();
         DataBaseController.startDataBase(LoginActivity.this);
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         goBackButton = (Button) findViewById(R.id.goBackMainLButton);
         goBackButton.setOnClickListener(view -> finish());
         enterButton = (Button) findViewById(R.id.enterLoginButton);
