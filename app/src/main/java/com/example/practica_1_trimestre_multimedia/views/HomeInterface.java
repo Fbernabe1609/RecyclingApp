@@ -9,4 +9,8 @@ public interface HomeInterface {
     void profileUser();
     void errorEditPassword();
     void errorEditEmail();
+    void editEmail();
+    void editPassword();
+    void completeFields();
+    void completeEdit();
 }

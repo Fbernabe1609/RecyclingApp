@@ -12,6 +12,7 @@
     <string name="bienvenido_a_recycling">Bienvenido a Recycling</string>
     <string name="borrar_cuenta">Borrar cuenta</string>
     <string name="borrar_reciclado">Borrar reciclado</string>
+    <string name="cambiar">Cambiar</string>
     <string name="cambiar_contrase_a">Cambiar contraseña</string>
     <string name="cambiar_email">Cambiar Email</string>
     <string name="confirmar_contrase_a">Confirmar contraseña</string>
@@ -25,6 +26,9 @@
     <string name="logo_de_la_app">Logo de la app</string>
     <string name="mostrar_datos">Mostrar datos</string>
     <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="nueva_contrase_a">Nueva contraseña</string>
+    <string name="nuevo_contrase_a">Nuevo contraseña</string>
+    <string name="nuevo_email">Nuevo email</string>
     <string name="nuevo_reciclaje">Nuevo reciclaje</string>
     <string name="perfil">Perfil</string>
     <string name="premios">Premios</string>

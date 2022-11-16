@@ -208,4 +208,34 @@ public class DataBaseController {
                 selectionArgs
         );
     }
+
+    public static int updateUserEmail(SQLiteDatabase db, String email) {
+        ContentValues valoresParaActualizar = new ContentValues();
+        valoresParaActualizar.put(dataBase.getCOLUMN_EMAIL(), email);
+        String[] selectionArgs = {
+                UserController.getUser().getUsername()
+        };
+        String selection = dataBase.getCOLUMN_USERNAME() + " = ?";
+        return db.update(
+                dataBase.getTABLE_USER(),
+                valoresParaActualizar,
+                selection,
+                selectionArgs
+        );
+    }
+
+    public static int updateUserPassword(SQLiteDatabase db, String password) {
+        ContentValues valoresParaActualizar = new ContentValues();
+        valoresParaActualizar.put(dataBase.getCOLUMN_PASSWORD(), password);
+        String[] selectionArgs = {
+                UserController.getUser().getUsername()
+        };
+        String selection = dataBase.getCOLUMN_USERNAME() + " = ?";
+        return db.update(
+                dataBase.getTABLE_USER(),
+                valoresParaActualizar,
+                selection,
+                selectionArgs
+        );
+    }
 }

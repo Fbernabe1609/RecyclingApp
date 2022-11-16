@@ -26,4 +26,9 @@
     <string name="correo">Correo:</string>
     <string name="mostrar_datos">Mostrar datos</string>
     <string name="contrase_a2">Contraseña:</string>
+    <string name="nuevo_contrase_a">Nuevo contraseña</string>
+    <string name="nueva_contrase_a">Nueva contraseña</string>
+    <string name="cambiar">Cambiar</string>
+    <string name="nuevo_email">Nuevo email</string>
+    <string name="mapa">Mapa</string>
 </resources>

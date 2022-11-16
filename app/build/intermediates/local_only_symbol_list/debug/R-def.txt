@@ -8,12 +8,15 @@ color teal_200
 color teal_700
 color white
 drawable background
+drawable ic_baseline_map_24
 drawable ic_baseline_person_24
 drawable ic_home_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
 id bottomNavigationView
+id changeButton
+id changeButton2
 id changeEmailButton
 id changePasswordButton
 id confirmPasswordField
@@ -21,6 +24,8 @@ id constraintLayout
 id container
 id deleteAccountButton
 id deleteRecycleButton
+id editEmailField
+id editPasswordField2
 id emailField
 id emailTextView
 id enterLoginButton
@@ -31,6 +36,8 @@ id home
 id homeFragment3
 id imageView
 id loginButton
+id map
+id mapFragment
 id my_nav
 id passwordLField
 id passwordRField
@@ -45,6 +52,7 @@ id settings
 id settingsFragment
 id showButton
 id textView
+id textView2
 id textView3
 id textView4
 id textView5
@@ -55,7 +63,10 @@ layout activity_home
 layout activity_login
 layout activity_main
 layout activity_register
+layout fragment_edit_email
+layout fragment_edit_password
 layout fragment_home
+layout fragment_map
 layout fragment_profile
 layout fragment_rewards
 layout fragment_settings
@@ -68,6 +79,7 @@ string app_name
 string bienvenido_a_recycling
 string borrar_cuenta
 string borrar_reciclado
+string cambiar
 string cambiar_contrase_a
 string cambiar_email
 string confirmar_contrase_a
@@ -81,6 +93,9 @@ string login
 string logo_de_la_app
 string mostrar_datos
 string nombre_de_usuario
+string nueva_contrase_a
+string nuevo_contrase_a
+string nuevo_email
 string nuevo_reciclaje
 string perfil
 string premios

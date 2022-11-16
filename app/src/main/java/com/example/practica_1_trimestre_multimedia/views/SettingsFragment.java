@@ -30,11 +30,13 @@ public class SettingsFragment extends Fragment {
                              Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_settings, container, false);
         SQLiteDatabase db = DataBaseController.getDataBase().getWritableDatabase();
-        delete = view.findViewById(R.id.deleteAccountButton);
-        editEmail = view.findViewById(R.id.changeEmailButton);
-        editPassword = view.findViewById(R.id.changePasswordButton);
-        showData = view.findViewById(R.id.showButton);
+        delete = (Button) view.findViewById(R.id.deleteAccountButton);
+        editEmail = (Button) view.findViewById(R.id.changeEmailButton);
+        editPassword = (Button) view.findViewById(R.id.changePasswordButton);
+        showData = (Button) view.findViewById(R.id.showButton);
         showData.setOnClickListener(view -> homeInterface.profileUser());
+        editEmail.setOnClickListener(view -> homeInterface.editEmail());
+        editPassword.setOnClickListener(view -> homeInterface.editPassword());
         delete.setOnClickListener(view -> {
             if (DataBaseController.deleteUser(db) != -1) {
                 homeInterface.finishFragment();

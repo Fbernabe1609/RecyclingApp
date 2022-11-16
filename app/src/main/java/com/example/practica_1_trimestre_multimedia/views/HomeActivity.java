@@ -20,6 +20,8 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
     SettingsFragment settingsFragment = new SettingsFragment();
     ProfileFragment profileFragment = new ProfileFragment();
     MapFragment mapFragment = new MapFragment();
+    EditEmailFragment editEmailFragment = new EditEmailFragment();
+    EditPasswordFragment editPasswordFragment = new EditPasswordFragment();
 
     TextView user, points;
 
@@ -93,6 +95,28 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
     @Override
     public void errorEditEmail() {
         Toast.makeText(HomeActivity.this, "No se ha podido cambiar el email.", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void editEmail() {
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, editEmailFragment).commit();
+    }
+
+    @Override
+    public void editPassword() {
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, editPasswordFragment).commit();
+    }
+
+    @Override
+    public void completeFields() {
+        Toast.makeText(HomeActivity.this, "Completa todos los campos.", Toast.LENGTH_LONG).show();
+
+    }
+
+    @Override
+    public void completeEdit() {
+        Toast.makeText(HomeActivity.this, "Cambio realizado correctamente.", Toast.LENGTH_LONG).show();
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, settingsFragment).commit();
     }
 }
 
