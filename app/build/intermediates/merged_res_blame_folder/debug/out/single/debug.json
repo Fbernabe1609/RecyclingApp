@@ -56,8 +56,8 @@
         "source": "C:\\Users\\2 DAM\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-48:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-46:/layout_activity_register.xml.flat",
-        "source": "com.example.practica_1_trimestre_multimedia.app-main-48:/layout/activity_register.xml"
+        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-46:/layout_fragment_home.xml.flat",
+        "source": "com.example.practica_1_trimestre_multimedia.app-main-48:/layout/fragment_home.xml"
     },
     {
         "merged": "C:\\Users\\2 DAM\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-46:\\xml_data_extraction_rules.xml.flat",
@@ -66,6 +66,10 @@
     {
         "merged": "C:\\Users\\2 DAM\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-46:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\2 DAM\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-48:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-46:/layout_fragment_edit_password.xml.flat",
+        "source": "com.example.practica_1_trimestre_multimedia.app-main-48:/layout/fragment_edit_password.xml"
     },
     {
         "merged": "C:\\Users\\2 DAM\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-46:\\layout_activity_login.xml.flat",
@@ -96,8 +100,12 @@
         "source": "C:\\Users\\2 DAM\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-48:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-46:/layout_activity_login.xml.flat",
-        "source": "com.example.practica_1_trimestre_multimedia.app-main-48:/layout/activity_login.xml"
+        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-46:/layout_fragment_edit_email.xml.flat",
+        "source": "com.example.practica_1_trimestre_multimedia.app-main-48:/layout/fragment_edit_email.xml"
+    },
+    {
+        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-46:/layout_fragment_settings.xml.flat",
+        "source": "com.example.practica_1_trimestre_multimedia.app-main-48:/layout/fragment_settings.xml"
     },
     {
         "merged": "C:\\Users\\2 DAM\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
