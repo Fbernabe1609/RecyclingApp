@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Users/Cliente/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/213.7172.25.2113.9123335/plugins/android/lib/android.jar!/images/material/icons/materialicons/settings/baseline_settings_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../2%20DAM/AppData/Local/Android/Sdk/icons/material/materialicons/settings/baseline_settings_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,7 +33,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_settings_24" />
+                            <entry key="opacityPercent" value="0" />
+                            <entry key="outputName" value="ic_background_24" />
                             <entry key="sourceFile" value="E:\Practica-1-Trimestre-Multimedia" />
                           </map>
                         </option>
