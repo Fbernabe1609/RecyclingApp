@@ -9,17 +9,35 @@
         android:id="@+id/homeFragment3"
         android:name="com.example.practica_1_trimestre_multimedia.views.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment3_to_rewardsFragment"
+            app:destination="@id/rewardsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.practica_1_trimestre_multimedia.views.SettingsFragment"
         android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" />
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_editEmailFragment"
+            app:destination="@id/editEmailFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_editPasswordFragment"
+            app:destination="@id/editPasswordFragment" />
+    </fragment>
     <fragment
         android:id="@+id/rewardsFragment"
         android:name="com.example.practica_1_trimestre_multimedia.views.RewardsFragment"
         android:label="fragment_rewards"
-        tools:layout="@layout/fragment_rewards" />
+        tools:layout="@layout/fragment_rewards" >
+        <action
+            android:id="@+id/action_rewardsFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.practica_1_trimestre_multimedia.views.ProfileFragment"
@@ -29,5 +47,19 @@
         android:id="@+id/mapFragment"
         android:name="com.example.practica_1_trimestre_multimedia.views.MapFragment"
         android:label="fragment_map"
-        tools:layout="@layout/fragment_map" />
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_mapFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editEmailFragment"
+        android:name="com.example.practica_1_trimestre_multimedia.views.EditEmailFragment"
+        android:label="fragment_edit_email"
+        tools:layout="@layout/fragment_edit_email" />
+    <fragment
+        android:id="@+id/editPasswordFragment"
+        android:name="com.example.practica_1_trimestre_multimedia.views.EditPasswordFragment"
+        android:label="fragment_edit_password"
+        tools:layout="@layout/fragment_edit_password" />
 </navigation>

@@ -17,6 +17,12 @@ drawable ic_home_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
+id action_homeFragment3_to_rewardsFragment
+id action_mapFragment_to_settingsFragment
+id action_rewardsFragment_to_mapFragment
+id action_settingsFragment_to_editEmailFragment
+id action_settingsFragment_to_editPasswordFragment
+id action_settingsFragment_to_profileFragment
 id bottomNavigationView
 id changeButton
 id changeButton2
@@ -28,7 +34,9 @@ id container
 id deleteAccountButton
 id deleteRecycleButton
 id editEmailField
+id editEmailFragment
 id editPasswordField2
+id editPasswordFragment
 id emailField
 id emailTextView
 id enterLoginButton
