@@ -26,11 +26,7 @@ public class DataBaseController {
         values.put(dataBase.getCOLUMN_PASSWORD(), user.getPassword());
         long insert = db.insert(dataBase.getTABLE_USER(), null, values);
         db.close();
-        if (insert == -1) {
-            returned = false;
-        } else {
-            returned = true;
-        }
+        returned = insert != -1;
 
         return returned;
     }
@@ -51,11 +47,7 @@ public class DataBaseController {
                 null, null);
         int cursorCount = cursor.getCount();
         cursor.close();
-        if (cursorCount > 0) {
-            returned = true;
-        } else {
-            returned = false;
-        }
+        returned = cursorCount > 0;
         return returned;
     }
 
@@ -74,11 +66,7 @@ public class DataBaseController {
                 null, null);
         int cursorCount = cursor.getCount();
         cursor.close();
-        if (cursorCount > 0) {
-            returned = true;
-        } else {
-            returned = false;
-        }
+        returned = cursorCount > 0;
 
         return returned;
     }
@@ -98,11 +86,7 @@ public class DataBaseController {
                 null, null);
         int cursorCount = cursor.getCount();
         cursor.close();
-        if (cursorCount > 0) {
-            returned = true;
-        } else {
-            returned = false;
-        }
+        returned = cursorCount > 0;
 
         return returned;
     }
@@ -179,9 +163,6 @@ public class DataBaseController {
     }
 
     public static int deleteUser(SQLiteDatabase db) {
-        String[] columns = {
-                dataBase.getCOLUMN_USERNAME()
-        };
         String[] selectionArgs = {
                 UserController.getUser().getUsername()
         };
