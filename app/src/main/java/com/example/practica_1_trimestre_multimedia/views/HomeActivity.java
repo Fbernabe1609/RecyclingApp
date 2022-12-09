@@ -20,7 +20,7 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
     RewardsFragment rewardsFragment = new RewardsFragment();
     SettingsFragment settingsFragment = new SettingsFragment();
     ProfileFragment profileFragment = new ProfileFragment();
-    MapFragment mapFragment = new MapFragment();
+    MapsFragment mapsFragment = new MapsFragment();
     EditEmailFragment editEmailFragment = new EditEmailFragment();
     EditPasswordFragment editPasswordFragment = new EditPasswordFragment();
 
@@ -51,7 +51,7 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
                     getSupportFragmentManager().beginTransaction().replace(R.id.container, settingsFragment).commit();
                     return true;
                 case R.id.map:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, mapFragment).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container, mapsFragment).commit();
                     return true;
             }
             return false;

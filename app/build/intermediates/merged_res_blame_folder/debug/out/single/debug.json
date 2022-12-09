@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-48:\\drawable-v24\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-46:\\layout_fragment_edit_email.xml.flat",
-        "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-48:\\layout\\fragment_edit_email.xml"
+        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-46:/layout_activity_home.xml.flat",
+        "source": "com.example.practica_1_trimestre_multimedia.app-main-48:/layout/activity_home.xml"
     },
     {
-        "merged": "com.example.practica_1_trimestre_multimedia.app-merged_res-46:/navigation_my_nav.xml.flat",
-        "source": "com.example.practica_1_trimestre_multimedia.app-main-48:/navigation/my_nav.xml"
+        "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-46:\\layout_fragment_edit_email.xml.flat",
+        "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-48:\\layout\\fragment_edit_email.xml"
     },
     {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-46:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -94,6 +94,10 @@
     {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-46:\\layout_fragment_maps.xml.flat",
+        "source": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-main-48:\\layout\\fragment_maps.xml"
     },
     {
         "merged": "C:\\Users\\Cliente\\.gradle\\daemon\\7.4\\com.example.practica_1_trimestre_multimedia.app-merged_res-46:\\layout_activity_register.xml.flat",

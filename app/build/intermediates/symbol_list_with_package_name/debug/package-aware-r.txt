@@ -2819,13 +2819,13 @@ id action_context_bar
 id action_divider
 id action_homeFragment3_to_rewardsFragment
 id action_image
-id action_mapFragment_to_settingsFragment
+id action_mapsFragment_to_settingsFragment
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_rewardsFragment_to_mapFragment
+id action_rewardsFragment_to_mapsFragment
 id action_settingsFragment_to_editEmailFragment
 id action_settingsFragment_to_editPasswordFragment
 id action_settingsFragment_to_profileFragment
@@ -2896,6 +2896,7 @@ id confirmPasswordField
 id confirm_button
 id constraint
 id constraintLayout
+id constraintLayout2
 id container
 id content
 id contentPanel
@@ -3032,7 +3033,7 @@ id locale
 id loginButton
 id ltr
 id map
-id mapFragment
+id mapsFragment
 id marquee
 id masked
 id match_constraint
@@ -3244,7 +3245,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
 id textView3
 id textView4
 id textView5
@@ -3447,7 +3447,7 @@ layout design_text_input_start_icon
 layout fragment_edit_email
 layout fragment_edit_password
 layout fragment_home
-layout fragment_map
+layout fragment_maps
 layout fragment_profile
 layout fragment_rewards
 layout fragment_settings

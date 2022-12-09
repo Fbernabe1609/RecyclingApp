@@ -28,6 +28,9 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final ConstraintLayout constraintLayout;
 
   @NonNull
+  public final ConstraintLayout constraintLayout2;
+
+  @NonNull
   public final FrameLayout container;
 
   @NonNull
@@ -38,11 +41,12 @@ public final class ActivityHomeBinding implements ViewBinding {
 
   private ActivityHomeBinding(@NonNull ConstraintLayout rootView,
       @NonNull BottomNavigationView bottomNavigationView,
-      @NonNull ConstraintLayout constraintLayout, @NonNull FrameLayout container,
-      @NonNull TextView textView4, @NonNull TextView textView5) {
+      @NonNull ConstraintLayout constraintLayout, @NonNull ConstraintLayout constraintLayout2,
+      @NonNull FrameLayout container, @NonNull TextView textView4, @NonNull TextView textView5) {
     this.rootView = rootView;
     this.bottomNavigationView = bottomNavigationView;
     this.constraintLayout = constraintLayout;
+    this.constraintLayout2 = constraintLayout2;
     this.container = container;
     this.textView4 = textView4;
     this.textView5 = textView5;
@@ -87,6 +91,12 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.constraintLayout2;
+      ConstraintLayout constraintLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout2 == null) {
+        break missingId;
+      }
+
       id = R.id.container;
       FrameLayout container = ViewBindings.findChildViewById(rootView, id);
       if (container == null) {
@@ -106,7 +116,7 @@ public final class ActivityHomeBinding implements ViewBinding {
       }
 
       return new ActivityHomeBinding((ConstraintLayout) rootView, bottomNavigationView,
-          constraintLayout, container, textView4, textView5);
+          constraintLayout, constraintLayout2, container, textView4, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

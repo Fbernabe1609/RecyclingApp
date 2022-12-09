@@ -34,6 +34,22 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Practica1TrimestreMultimedia" >
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
         <activity
             android:name="com.example.practica_1_trimestre_multimedia.views.HomeActivity"
             android:exported="false"
@@ -69,8 +85,11 @@
             </intent-filter>
 
             <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyDWbwRe5fb8wJrD0P157hmPvAKT0ryEx6c" />
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
         </activity>
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library
