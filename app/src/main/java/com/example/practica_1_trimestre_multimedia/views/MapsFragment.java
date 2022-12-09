@@ -19,7 +19,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsFragment extends Fragment {
 
-    private OnMapReadyCallback callback = googleMap -> {
+    private final OnMapReadyCallback callback = googleMap -> {
         LatLng granada = new LatLng(37.18817, -3.60667);
         googleMap.addMarker(new MarkerOptions().position(granada).title("Marcador en Granada"));
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(granada));
