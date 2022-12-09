@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.EditEmailFragment" >
+    tools:context=".views.EditEmailFragment">
 
     <EditText
         android:id="@+id/editEmailField"
@@ -13,6 +13,7 @@
         android:layout_marginTop="228dp"
         android:ems="10"
         android:hint="@string/nuevo_email"
+        android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"

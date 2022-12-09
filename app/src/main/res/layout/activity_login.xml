@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.LoginActivity"
-    android:background="@drawable/bg1">
+    android:background="@drawable/bg1"
+    tools:context=".views.LoginActivity">
 
     <TextView
         android:id="@+id/textView3"
@@ -26,6 +26,7 @@
         android:layout_marginTop="184dp"
         android:ems="10"
         android:hint="@string/nombre_de_usuario"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,6 +41,7 @@
         android:layout_marginTop="62dp"
         android:ems="10"
         android:hint="@string/contrase_a"
+        android:importantForAutofill="no"
         android:inputType="textPassword"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"

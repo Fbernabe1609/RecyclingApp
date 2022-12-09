@@ -9,7 +9,7 @@
         android:id="@+id/homeFragment3"
         android:name="com.example.practica_1_trimestre_multimedia.views.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment3_to_rewardsFragment"
             app:destination="@id/rewardsFragment" />
@@ -18,7 +18,7 @@
         android:id="@+id/settingsFragment"
         android:name="com.example.practica_1_trimestre_multimedia.views.SettingsFragment"
         android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" >
+        tools:layout="@layout/fragment_settings">
         <action
             android:id="@+id/action_settingsFragment_to_profileFragment"
             app:destination="@id/profileFragment" />
@@ -33,7 +33,7 @@
         android:id="@+id/rewardsFragment"
         android:name="com.example.practica_1_trimestre_multimedia.views.RewardsFragment"
         android:label="fragment_rewards"
-        tools:layout="@layout/fragment_rewards" >
+        tools:layout="@layout/fragment_rewards">
         <action
             android:id="@+id/action_rewardsFragment_to_mapsFragment"
             app:destination="@id/mapsFragment" />
@@ -57,7 +57,7 @@
         android:id="@+id/mapsFragment"
         android:name="com.example.practica_1_trimestre_multimedia.views.MapsFragment"
         android:label="fragment_maps"
-        tools:layout="@layout/fragment_maps" >
+        tools:layout="@layout/fragment_maps">
         <action
             android:id="@+id/action_mapsFragment_to_settingsFragment"
             app:destination="@id/settingsFragment" />
