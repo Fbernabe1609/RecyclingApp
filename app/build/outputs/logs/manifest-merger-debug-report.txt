@@ -7,10 +7,10 @@ INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:28:13-58
 manifest
-ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-74:12
+ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-73:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\2 DAM\.gradle\caches\transforms-3\ea113a168d7d3c10f361c0d9c972e51b\transformed\viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.5.3] C:\Users\2 DAM\.gradle\caches\transforms-3\101baa0472c44036f533ebc7e945e047\transformed\navigation-ui-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\2 DAM\.gradle\caches\transforms-3\eb47a08730fe6560883e4be3a561e4ab\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
@@ -25,10 +25,11 @@ MERGED from [androidx.activity:activity-ktx:1.5.1] C:\Users\2 DAM\.gradle\caches
 MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\2 DAM\.gradle\caches\transforms-3\0c0a66b45398613be2371b5cdf0f298a\transformed\navigation-common-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\2 DAM\.gradle\caches\transforms-3\3f37754d62a93a1b7e6cce4ab1cd01cb\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\42cad6fd7161deac69e81aada62d8d2d\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\d04c508d3506b9f855256ce4730d9bcd\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\473fbfdde6fbcdf35e081f5f687648b3\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\59d04e1dfe6f969bb9e47b7445fd713f\transformed\play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\41a38bc7e2ca3f689ba882da32816291\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\2 DAM\.gradle\caches\transforms-3\cc7513d80141eb6a3e87e0450f97d847\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\36347bafbd467583b1178386668751ad\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\2 DAM\.gradle\caches\transforms-3\be17cd2f8d0a82c83ade91d2f78e4aa1\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\2 DAM\.gradle\caches\transforms-3\619a9f11b548dbc85079bf770f93c983\transformed\activity-1.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\195dfbd2728427132d24c526a92d582f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -69,22 +70,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\2 DAM\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\495a32657c94ce27aaebeee41690b082\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\c1df7ecddc77ae6bd6f94948445f0ebf\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\5cb95117d0bd7e5568f6b6280070aaad\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-73:12
 	package
 		INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-74:12
+		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-73:12
 		INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-74:12
+		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-73:12
 		INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-74:12
+		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:1-73:12
 		INJECTED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -96,12 +97,14 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\2 DAM\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\2 DAM\.gradle\caches\transforms-3\86273e999a44ef5694f3c78a27232305\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\473fbfdde6fbcdf35e081f5f687648b3\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\473fbfdde6fbcdf35e081f5f687648b3\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\59d04e1dfe6f969bb9e47b7445fd713f\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\59d04e1dfe6f969bb9e47b7445fd713f\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\42cad6fd7161deac69e81aada62d8d2d\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\42cad6fd7161deac69e81aada62d8d2d\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\41a38bc7e2ca3f689ba882da32816291\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\41a38bc7e2ca3f689ba882da32816291\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\2 DAM\.gradle\caches\transforms-3\cc7513d80141eb6a3e87e0450f97d847\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\2 DAM\.gradle\caches\transforms-3\cc7513d80141eb6a3e87e0450f97d847\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\36347bafbd467583b1178386668751ad\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\36347bafbd467583b1178386668751ad\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
@@ -136,8 +139,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\2 
 		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:7:9-65
 meta-data#com.google.android.gms.version
 ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:30:9-32:69
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\59d04e1dfe6f969bb9e47b7445fd713f\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\59d04e1dfe6f969bb9e47b7445fd713f\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\36347bafbd467583b1178386668751ad\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\36347bafbd467583b1178386668751ad\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 	android:value
 		ADDED from C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:32:13-66
 	android:name
@@ -222,14 +225,16 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\2 DAM\.g
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\2 DAM\.gradle\caches\transforms-3\3f37754d62a93a1b7e6cce4ab1cd01cb\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\42cad6fd7161deac69e81aada62d8d2d\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\42cad6fd7161deac69e81aada62d8d2d\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\d04c508d3506b9f855256ce4730d9bcd\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\d04c508d3506b9f855256ce4730d9bcd\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\473fbfdde6fbcdf35e081f5f687648b3\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\473fbfdde6fbcdf35e081f5f687648b3\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\59d04e1dfe6f969bb9e47b7445fd713f\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\59d04e1dfe6f969bb9e47b7445fd713f\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\41a38bc7e2ca3f689ba882da32816291\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\41a38bc7e2ca3f689ba882da32816291\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\2 DAM\.gradle\caches\transforms-3\cc7513d80141eb6a3e87e0450f97d847\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\2 DAM\.gradle\caches\transforms-3\cc7513d80141eb6a3e87e0450f97d847\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\36347bafbd467583b1178386668751ad\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\36347bafbd467583b1178386668751ad\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\2 DAM\.gradle\caches\transforms-3\be17cd2f8d0a82c83ade91d2f78e4aa1\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\2 DAM\.gradle\caches\transforms-3\be17cd2f8d0a82c83ade91d2f78e4aa1\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\2 DAM\.gradle\caches\transforms-3\619a9f11b548dbc85079bf770f93c983\transformed\activity-1.5.1\AndroidManifest.xml:20:5-22:41
@@ -347,13 +352,13 @@ ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gr
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\41a38bc7e2ca3f689ba882da32816291\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\41a38bc7e2ca3f689ba882da32816291\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\41a38bc7e2ca3f689ba882da32816291\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\41a38bc7e2ca3f689ba882da32816291\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\2 DAM\.gradle\caches\transforms-3\3aa9252c052d255bb959438c68e78965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
