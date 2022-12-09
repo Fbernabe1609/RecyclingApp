@@ -29,6 +29,7 @@ public class EditEmailFragment extends Fragment {
     Button button;
     Activity activity;
     HomeInterface homeInterface;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -37,15 +38,16 @@ public class EditEmailFragment extends Fragment {
         button = (Button) view.findViewById(R.id.changeButton);
         button.setOnClickListener(view2 -> {
             view2 = view;
-            if (ValidationData.isTextEmail((EditText)view2.findViewById(R.id.editEmailField))){
-                editText = ((EditText)view2.findViewById(R.id.editEmailField)).getText().toString();
+            if (ValidationData.isTextEmail((EditText) view2.findViewById(R.id.editEmailField))) {
+                editText = ((EditText) view2.findViewById(R.id.editEmailField)).getText().toString();
                 int result = DataBaseController.updateUserEmail(db, editText);
                 if (result != -1) {
                     UserController.updateUserEmail(editText);
                     homeInterface.completeEdit();
                 } else {
                     homeInterface.errorEditPassword();
-                }                } else {
+                }
+            } else {
                 homeInterface.errorEditEmail();
             }
         });

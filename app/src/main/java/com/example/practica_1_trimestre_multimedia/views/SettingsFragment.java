@@ -25,6 +25,7 @@ public class SettingsFragment extends Fragment {
     Button delete, editPassword, editEmail, showData;
     Activity activity;
     HomeInterface homeInterface;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

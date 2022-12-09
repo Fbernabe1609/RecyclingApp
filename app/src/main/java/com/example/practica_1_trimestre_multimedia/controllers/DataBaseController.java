@@ -25,11 +25,10 @@ public class DataBaseController {
         values.put(dataBase.getCOLUMN_EMAIL(), user.getEmail());
         values.put(dataBase.getCOLUMN_PASSWORD(), user.getPassword());
         long insert = db.insert(dataBase.getTABLE_USER(), null, values);
+        db.close();
         if (insert == -1) {
-            db.close();
             returned = false;
         } else {
-            db.close();
             returned = true;
         }
 
@@ -176,7 +175,7 @@ public class DataBaseController {
     }
 
     public static void userLogin(String username, String password, SQLiteDatabase db) {
-        UserController.createUserLogin(username,selectEmail(username,db),password);
+        UserController.createUserLogin(username, selectEmail(username, db), password);
     }
 
     public static int deleteUser(SQLiteDatabase db) {

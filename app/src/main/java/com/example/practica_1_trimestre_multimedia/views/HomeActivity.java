@@ -38,7 +38,7 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
         String text = points.getText().toString();
         points.setText(text + " " + UserController.getUser().getPoints());
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
-        getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
         bottomNavigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
                 case R.id.home:

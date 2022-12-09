@@ -29,6 +29,7 @@ public class EditPasswordFragment extends Fragment {
     Button button;
     Activity activity;
     HomeInterface homeInterface;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -37,7 +38,7 @@ public class EditPasswordFragment extends Fragment {
         button = (Button) view.findViewById(R.id.changeButton2);
         button.setOnClickListener(view2 -> {
             view2 = view;
-            if (ValidationData.isTextFilled((EditText) view2.findViewById(R.id.editPasswordField2))){
+            if (ValidationData.isTextFilled((EditText) view2.findViewById(R.id.editPasswordField2))) {
                 editText = ((EditText) view2.findViewById(R.id.editPasswordField2)).getText().toString();
                 int result = DataBaseController.updateUserPassword(db, editText);
                 if (result != -1) {

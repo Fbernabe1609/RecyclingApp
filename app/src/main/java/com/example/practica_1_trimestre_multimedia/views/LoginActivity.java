@@ -34,10 +34,10 @@ public class LoginActivity extends AppCompatActivity {
         SQLiteDatabase db = DataBaseController.getDataBase().getWritableDatabase();
         enterButton.setOnClickListener(view -> {
             if (db != null) {
-                if (ValidationData.isTextFilled((EditText)findViewById(R.id.usernameLField)) && ValidationData.isTextFilled((EditText)findViewById(R.id.passwordLField))) {
-                    if (DataBaseController.checkUserLogin(((EditText)findViewById(R.id.usernameLField)).getText().toString(), ((EditText)findViewById(R.id.passwordLField)).getText().toString(), db)) {
-                        DataBaseController.userLogin(((EditText)findViewById(R.id.usernameLField)).getText().toString(), ((EditText)findViewById(R.id.passwordLField)).getText().toString(), db);
-                        UserController.getUser().setPoints(DataBaseController.selectPoints(((EditText)findViewById(R.id.usernameLField)).getText().toString(),db));
+                if (ValidationData.isTextFilled((EditText) findViewById(R.id.usernameLField)) && ValidationData.isTextFilled((EditText) findViewById(R.id.passwordLField))) {
+                    if (DataBaseController.checkUserLogin(((EditText) findViewById(R.id.usernameLField)).getText().toString(), ((EditText) findViewById(R.id.passwordLField)).getText().toString(), db)) {
+                        DataBaseController.userLogin(((EditText) findViewById(R.id.usernameLField)).getText().toString(), ((EditText) findViewById(R.id.passwordLField)).getText().toString(), db);
+                        UserController.getUser().setPoints(DataBaseController.selectPoints(((EditText) findViewById(R.id.usernameLField)).getText().toString(), db));
                         startActivity(new Intent(LoginActivity.this, HomeActivity.class));
                         finish();
                     } else {

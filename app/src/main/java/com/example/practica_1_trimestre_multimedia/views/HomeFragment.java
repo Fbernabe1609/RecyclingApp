@@ -37,7 +37,7 @@ public class HomeFragment extends Fragment {
             UserController.editUserPoints(10);
             if (DataBaseController.updateUserPoints(db) != -1) {
                 homeInterface.editPointsText();
-            } else{
+            } else {
                 UserController.editUserPoints(-10);
                 homeInterface.errorEditPoints();
             }
@@ -47,7 +47,7 @@ public class HomeFragment extends Fragment {
                 UserController.editUserPoints(-10);
                 if (DataBaseController.updateUserPoints(db) != -1) {
                     homeInterface.editPointsText();
-                } else{
+                } else {
                     UserController.editUserPoints(10);
                     homeInterface.errorEditPoints();
                 }

@@ -2,7 +2,7 @@ package com.example.practica_1_trimestre_multimedia.controllers;
 
 import android.widget.EditText;
 
-public class  ValidationData {
+public class ValidationData {
 
     public static boolean isTextFilled(EditText textInputEditText) {
         String value = textInputEditText.getText().toString().trim();
