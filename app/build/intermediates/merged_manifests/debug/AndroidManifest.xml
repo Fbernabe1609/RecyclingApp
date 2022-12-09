@@ -48,7 +48,10 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="AIzaSyDWbwRe5fb8wJrD0P157hmPvAKT0ryEx6c" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <activity
             android:name="com.example.practica_1_trimestre_multimedia.views.HomeActivity"
@@ -85,11 +88,8 @@
             </intent-filter>
 
             <meta-data
-                android:name="com.google.android.geo.API_KEY"
-                android:value="AIzaSyDWbwRe5fb8wJrD0P157hmPvAKT0ryEx6c" />
-            <meta-data
-                android:name="com.google.android.gms.version"
-                android:value="@integer/google_play_services_version" />
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library
@@ -100,10 +100,6 @@
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

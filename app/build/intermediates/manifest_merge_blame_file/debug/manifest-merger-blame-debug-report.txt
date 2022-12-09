@@ -6,56 +6,56 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml
+8-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml
+9-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml
 10
 11    <!-- Include required permissions for Google Maps API to run. -->
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
-12-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+12-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
-13-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+13-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
 14
 15    <uses-feature
-15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
 16        android:glEsVersion="0x00020000"
-16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
 17        android:required="true" />
-17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
 18
 19    <queries>
-19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
 20
 21        <!-- Needs to be explicitly declared on Android R+ -->
 22        <package android:name="com.google.android.apps.maps" />
-22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
-22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
 23    </queries>
 24
 25    <application
-25-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:5:5-72:19
+25-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:5:5-72:19
 26        android:allowBackup="true"
-26-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:6:9-35
+26-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:6:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.8.0] C:\Users\Cliente\.gradle\caches\transforms-3\382f9353696bf2eb5ecc1cb8cdb9af85\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+27-->[androidx.core:core:1.8.0] C:\Users\2 DAM\.gradle\caches\transforms-3\382f9353696bf2eb5ecc1cb8cdb9af85\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 28        android:dataExtractionRules="@xml/data_extraction_rules"
-28-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:7:9-65
+28-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:7:9-65
 29        android:debuggable="true"
 30        android:fullBackupContent="@xml/backup_rules"
-30-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:8:9-54
+30-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:8:9-54
 31        android:icon="@drawable/logo"
-31-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:9:9-38
+31-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:9:9-38
 32        android:label="@string/app_name"
-32-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:10:9-41
+32-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:10:9-41
 33        android:roundIcon="@drawable/logo"
-33-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:11:9-43
+33-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:11:9-43
 34        android:supportsRtl="true"
-34-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:12:9-35
+34-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:12:9-35
 35        android:testOnly="true"
 36        android:theme="@style/Theme.Practica1TrimestreMultimedia" >
-36-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:13:9-66
+36-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:13:9-66
 37
 38        <!--
 39             TODO: Before you run your application, you need a Google Maps API key.
@@ -70,144 +70,138 @@
 48        -->
 49        <meta-data
 50            android:name="com.google.android.geo.API_KEY"
-50-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:28:13-58
-51            android:value="YOUR_API_KEY" />
-51-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:29:13-41
-52
-53        <activity
-53-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:31:9-38:20
-54            android:name="com.example.practica_1_trimestre_multimedia.views.HomeActivity"
-54-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:32:13-47
-55            android:exported="false"
-55-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:33:13-37
-56            android:screenOrientation="portrait" >
-56-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:34:13-49
-57            <meta-data
-57-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:35:13-37:36
-58                android:name="android.app.lib_name"
-58-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:36:17-52
-59                android:value="" />
-59-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:37:17-33
-60        </activity>
-61        <activity
-61-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:39:9-46:20
-62            android:name="com.example.practica_1_trimestre_multimedia.views.RegisterActivity"
-62-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:40:13-51
-63            android:exported="false"
-63-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:41:13-37
-64            android:screenOrientation="portrait" >
-64-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:42:13-49
-65            <meta-data
-65-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:35:13-37:36
-66                android:name="android.app.lib_name"
-66-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:36:17-52
-67                android:value="" />
-67-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:37:17-33
-68        </activity>
-69        <activity
-69-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:47:9-54:20
-70            android:name="com.example.practica_1_trimestre_multimedia.views.LoginActivity"
-70-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:48:13-48
-71            android:exported="true"
-71-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:49:13-36
-72            android:screenOrientation="portrait" >
-72-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:50:13-49
-73            <meta-data
-73-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:35:13-37:36
-74                android:name="android.app.lib_name"
-74-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:36:17-52
-75                android:value="" />
-75-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:37:17-33
-76        </activity>
-77        <activity
-77-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:55:9-71:20
-78            android:name="com.example.practica_1_trimestre_multimedia.MainActivity"
-78-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:56:13-41
-79            android:exported="true"
-79-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:57:13-36
-80            android:screenOrientation="portrait" >
-80-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:58:13-49
-81            <intent-filter>
-81-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:59:13-63:29
-82                <action android:name="android.intent.action.MAIN" />
-82-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:60:17-69
-82-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:60:25-66
-83
-84                <category android:name="android.intent.category.LAUNCHER" />
-84-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:62:17-77
-84-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:62:27-74
-85            </intent-filter>
+50-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:28:13-58
+51            android:value="AIzaSyDWbwRe5fb8wJrD0P157hmPvAKT0ryEx6c" />
+51-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:29:13-44
+52        <meta-data
+52-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:30:9-32:69
+53            android:name="com.google.android.gms.version"
+53-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:31:13-58
+54            android:value="@integer/google_play_services_version" />
+54-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:32:13-66
+55
+56        <activity
+56-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:34:9-41:20
+57            android:name="com.example.practica_1_trimestre_multimedia.views.HomeActivity"
+57-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:35:13-47
+58            android:exported="false"
+58-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:36:13-37
+59            android:screenOrientation="portrait" >
+59-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:37:13-49
+60            <meta-data
+60-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:38:13-40:36
+61                android:name="android.app.lib_name"
+61-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:39:17-52
+62                android:value="" />
+62-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:40:17-33
+63        </activity>
+64        <activity
+64-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:42:9-49:20
+65            android:name="com.example.practica_1_trimestre_multimedia.views.RegisterActivity"
+65-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:43:13-51
+66            android:exported="false"
+66-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:44:13-37
+67            android:screenOrientation="portrait" >
+67-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:45:13-49
+68            <meta-data
+68-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:38:13-40:36
+69                android:name="android.app.lib_name"
+69-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:39:17-52
+70                android:value="" />
+70-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:40:17-33
+71        </activity>
+72        <activity
+72-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:50:9-57:20
+73            android:name="com.example.practica_1_trimestre_multimedia.views.LoginActivity"
+73-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:51:13-48
+74            android:exported="true"
+74-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:52:13-36
+75            android:screenOrientation="portrait" >
+75-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:53:13-49
+76            <meta-data
+76-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:38:13-40:36
+77                android:name="android.app.lib_name"
+77-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:39:17-52
+78                android:value="" />
+78-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:40:17-33
+79        </activity>
+80        <activity
+80-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:58:9-71:20
+81            android:name="com.example.practica_1_trimestre_multimedia.MainActivity"
+81-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:59:13-41
+82            android:exported="true"
+82-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:60:13-36
+83            android:screenOrientation="portrait" >
+83-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:61:13-49
+84            <intent-filter>
+84-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:62:13-66:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:63:17-69
+85-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:63:25-66
 86
-87            <meta-data
-88                android:name="com.google.android.geo.API_KEY"
-88-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:28:13-58
-89                android:value="AIzaSyDWbwRe5fb8wJrD0P157hmPvAKT0ryEx6c" />
-89-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:29:13-41
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:65:17-77
+87-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:65:27-74
+88            </intent-filter>
+89
 90            <meta-data
-90-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:68:13-70:73
-91                android:name="com.google.android.gms.version"
-91-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:69:17-62
-92                android:value="@integer/google_play_services_version" />
-92-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:70:17-70
+90-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:38:13-40:36
+91                android:name="android.app.lib_name"
+91-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:39:17-52
+92                android:value="" />
+92-->C:\Users\2 DAM\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:40:17-33
 93        </activity>
 94        <!-- Needs to be explicitly declared on P+ -->
 95        <uses-library
-95-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+95-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
 96            android:name="org.apache.http.legacy"
-96-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+96-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
 97            android:required="false" />
-97-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Cliente\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+97-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\2 DAM\.gradle\caches\transforms-3\b44955ad94e72c536487a0ef95755e51\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
 98
 99        <activity
-99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Cliente\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Cliente\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 101            android:exported="false"
-101-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Cliente\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+101-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
 102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-102-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Cliente\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+102-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\2 DAM\.gradle\caches\transforms-3\83b7d1493582376b92a1370d5c1bb72b\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 103
-104        <meta-data
-104-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:68:13-70:73
-105            android:name="com.google.android.gms.version"
-105-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:69:17-62
-106            android:value="@integer/google_play_services_version" />
-106-->C:\Users\Cliente\Desktop\RecyclingApp\app\src\main\AndroidManifest.xml:70:17-70
-107
-108        <provider
-108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-109            android:name="androidx.startup.InitializationProvider"
-109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-110            android:authorities="com.example.practica_1_trimestre_multimedia.androidx-startup"
-110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-111            android:exported="false" >
-111-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-112            <meta-data
-112-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-113                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-113-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-114                android:value="androidx.startup" />
-114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cliente\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-115            <meta-data
-115-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Cliente\.gradle\caches\transforms-3\3aa9252c052d255bb959438c68e78965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-116-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Cliente\.gradle\caches\transforms-3\3aa9252c052d255bb959438c68e78965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-117                android:value="androidx.startup" />
-117-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Cliente\.gradle\caches\transforms-3\3aa9252c052d255bb959438c68e78965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-118        </provider>
-119
-120        <uses-library
-120-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-121            android:name="androidx.window.extensions"
-121-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-122            android:required="false" />
-122-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-123        <uses-library
-123-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-124            android:name="androidx.window.sidecar"
-124-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-125            android:required="false" />
-125-->[androidx.window:window:1.0.0] C:\Users\Cliente\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-126    </application>
-127
-128</manifest>
+104        <provider
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+106            android:authorities="com.example.practica_1_trimestre_multimedia.androidx-startup"
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+107            android:exported="false" >
+107-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+109-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+110                android:value="androidx.startup" />
+110-->[androidx.emoji2:emoji2:1.2.0] C:\Users\2 DAM\.gradle\caches\transforms-3\a22c0cbe23ab33c2da5384c4acb289d3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\2 DAM\.gradle\caches\transforms-3\3aa9252c052d255bb959438c68e78965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+112                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+112-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\2 DAM\.gradle\caches\transforms-3\3aa9252c052d255bb959438c68e78965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+113                android:value="androidx.startup" />
+113-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\2 DAM\.gradle\caches\transforms-3\3aa9252c052d255bb959438c68e78965\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+114        </provider>
+115
+116        <uses-library
+116-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+117            android:name="androidx.window.extensions"
+117-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+118            android:required="false" />
+118-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+119        <uses-library
+119-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+120            android:name="androidx.window.sidecar"
+120-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+121            android:required="false" />
+121-->[androidx.window:window:1.0.0] C:\Users\2 DAM\.gradle\caches\transforms-3\9c39f1caae4289e0d860e7d6835fed4b\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+122    </application>
+123
+124</manifest>
