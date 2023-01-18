@@ -4,6 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.location.Address;
+import android.location.Geocoder;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,13 +19,22 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.io.IOException;
+import java.util.List;
+import java.util.Locale;
+
 public class MapsFragment extends Fragment {
 
     private final OnMapReadyCallback callback = googleMap -> {
         LatLng granada = new LatLng(37.18817, -3.60667);
-        googleMap.addMarker(new MarkerOptions().position(granada).title("Marcador en Granada"));
+        googleMap.addMarker(new MarkerOptions().position(granada).title(text(granada)).draggable(true));
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(granada));
+        googleMap.setOnMapClickListener(latLng -> {
+            googleMap.clear();
+            googleMap.addMarker(new MarkerOptions().position(latLng).title(text(latLng)).draggable(true));
+        });
     };
+
 
     @Nullable
     @Override
@@ -41,5 +52,22 @@ public class MapsFragment extends Fragment {
         if (mapFragment != null) {
             mapFragment.getMapAsync(callback);
         }
+    }
+
+    public String text(LatLng latLng) {
+        Geocoder geocoder = new Geocoder(getContext(), Locale.getDefault());
+        String text;
+        List<Address> direction = null;
+        try {
+            direction = geocoder.getFromLocation(latLng.latitude, latLng.longitude, 1);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        if (direction.size() != 0) {
+            text = direction.get(0).getAddressLine(0);
+        } else {
+            text = latLng.latitude + " " + latLng.longitude;
+        }
+        return text;
     }
 }
