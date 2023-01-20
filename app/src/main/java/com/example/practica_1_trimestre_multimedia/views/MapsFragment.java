@@ -39,16 +39,29 @@ public class MapsFragment extends Fragment {
             "Submarino amarillo",
             "El One Pice",
             "Atlantida, C/El ahogado",
-            "Casa de Acuaman"
+            "Casa de Acuaman",
+            "Vaporeon quiere ser tu amigo",
+            "Una aparición masiva de Magikarp ha comenzado",
+            "Antonio quiero un 10",
+            "Nave extraterrestre no identificada",
+            "Grupo de sirenas tomento un café",
+            "Sebastián y Ariel cantando 'Bajo el mar'"
             );
 
     private final OnMapReadyCallback callback = googleMap -> {
         LatLng granada = new LatLng(37.18817, -3.60667);
-        googleMap.addMarker(new MarkerOptions().position(granada).title(text(granada)).draggable(true).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)));
+        googleMap.addMarker(new MarkerOptions()
+                .position(granada)
+                .title(text(granada))
+                .draggable(true)
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)));
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(granada));
         googleMap.setOnMapClickListener(latLng -> {
             googleMap.clear();
-            googleMap.addMarker(new MarkerOptions().position(latLng).title(text(latLng)).draggable(true).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)));
+            googleMap.addMarker(new MarkerOptions()
+                    .position(latLng).title(text(latLng))
+                    .draggable(true)
+                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET)));
         });
     };
 
