@@ -71,11 +71,11 @@ public class RegisterActivity extends AppCompatActivity {
                     }
                 } else {
 
-                    Toast.makeText(RegisterActivity.this, "Debe escribir en todos los campos.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(RegisterActivity.this, MessagesInterfaces.WRITE_ALL_FIELDS, Toast.LENGTH_LONG).show();
                 }
             } else {
 
-                Toast.makeText(RegisterActivity.this, "Error: Base de datos no creada", Toast.LENGTH_LONG).show();
+                Toast.makeText(RegisterActivity.this, MessagesInterfaces.ERROR_DATABASE_CREATION, Toast.LENGTH_LONG).show();
             }
         });
     }

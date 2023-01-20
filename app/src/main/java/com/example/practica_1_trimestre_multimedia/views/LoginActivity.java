@@ -45,10 +45,10 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 } else {
 
-                    Toast.makeText(LoginActivity.this, "Debe escribir en todos los campos.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this, MessagesInterfaces.WRITE_ALL_FIELDS, Toast.LENGTH_LONG).show();
                 }
             } else {
-                Toast.makeText(LoginActivity.this, "Error: Base de datos no creada", Toast.LENGTH_LONG).show();
+                Toast.makeText(LoginActivity.this, MessagesInterfaces.ERROR_DATABASE_CREATION, Toast.LENGTH_LONG).show();
             }
         });
     }

@@ -56,14 +56,12 @@ public class MapsFragment extends Fragment {
 
     public String text(LatLng latLng) {
         Geocoder geocoder = new Geocoder(getContext(), Locale.getDefault());
-        String text;
         List<Address> direction = null;
         try {
             direction = geocoder.getFromLocation(latLng.latitude, latLng.longitude, 1);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        text = (!direction.isEmpty()) ? direction.get(0).getAddressLine(0) : latLng.latitude + " " + latLng.longitude;
-        return text;
+        return (direction != null && !direction.isEmpty()) ? direction.get(0).getAddressLine(0) : latLng.latitude + " " + latLng.longitude;
     }
 }
