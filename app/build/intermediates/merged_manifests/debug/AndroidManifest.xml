@@ -21,6 +21,12 @@
         <package android:name="com.google.android.apps.maps" />
     </queries>
 
+    <permission
+        android:name="com.example.practica_1_trimestre_multimedia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.practica_1_trimestre_multimedia.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"

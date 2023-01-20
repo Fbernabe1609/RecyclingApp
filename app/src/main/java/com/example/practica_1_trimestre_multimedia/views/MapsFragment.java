@@ -25,6 +25,22 @@ import java.util.Locale;
 
 public class MapsFragment extends Fragment {
 
+    List<String> randomSentences  = List.of(
+            "Casa de Calamardo",
+            "Roca de Patricio",
+            "Piña de Bob Esponja",
+            "Reunión de anchoas",
+            "Un Tentacool salvaje ha aparecido",
+            "Un Tentacruel salvaje ha aparecido",
+            "Pingu y la foca",
+            "Una aparición masiva de Vaporeon ha comenzado",
+            "Krustacio Krujiente",
+            "Submarino amarillo",
+            "El One Pice",
+            "Atlantida, C/El ahogado",
+            "Casa de Acuaman"
+            );
+
     private final OnMapReadyCallback callback = googleMap -> {
         LatLng granada = new LatLng(37.18817, -3.60667);
         googleMap.addMarker(new MarkerOptions().position(granada).title(text(granada)).draggable(true));
@@ -62,6 +78,6 @@ public class MapsFragment extends Fragment {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return (direction != null && !direction.isEmpty()) ? direction.get(0).getAddressLine(0) : latLng.latitude + " " + latLng.longitude;
+        return (direction != null && !direction.isEmpty()) ? direction.get(0).getAddressLine(0) : randomSentences.get((int)(Math.random() * randomSentences.size()));
     }
 }

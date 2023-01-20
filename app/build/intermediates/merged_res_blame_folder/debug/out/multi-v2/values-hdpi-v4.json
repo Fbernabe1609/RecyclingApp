@@ -4,7 +4,7 @@
             "outputFile": "com.example.practica_1_trimestre_multimedia.app-mergeDebugResources-44:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\2 DAM\\.gradle\\caches\\transforms-3\\cc6fd3498ed5d7d36fa498cc8f2f27b9\\transformed\\appcompat-1.5.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\2 DAM\\.gradle\\caches\\transforms-3\\243968b91a620472e483c53ed5f3e8ca\\transformed\\appcompat-1.6.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
