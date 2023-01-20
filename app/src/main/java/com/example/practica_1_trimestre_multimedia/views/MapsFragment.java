@@ -16,6 +16,7 @@ import com.example.practica_1_trimestre_multimedia.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -43,11 +44,11 @@ public class MapsFragment extends Fragment {
 
     private final OnMapReadyCallback callback = googleMap -> {
         LatLng granada = new LatLng(37.18817, -3.60667);
-        googleMap.addMarker(new MarkerOptions().position(granada).title(text(granada)).draggable(true));
+        googleMap.addMarker(new MarkerOptions().position(granada).title(text(granada)).draggable(true).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(granada));
         googleMap.setOnMapClickListener(latLng -> {
             googleMap.clear();
-            googleMap.addMarker(new MarkerOptions().position(latLng).title(text(latLng)).draggable(true));
+            googleMap.addMarker(new MarkerOptions().position(latLng).title(text(latLng)).draggable(true).icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
         });
     };
 
