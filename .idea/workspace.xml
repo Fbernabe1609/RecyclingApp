@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de4f8e0-c7a9-4dcb-8171-cef2ba309b14" name="Changes" comment="Avance clase">
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/practica_1_trimestre_multimedia/views/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/practica_1_trimestre_multimedia/views/LoginActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/practica_1_trimestre_multimedia/views/RegisterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/practica_1_trimestre_multimedia/views/RegisterActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/practica_1_trimestre_multimedia/views/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/practica_1_trimestre_multimedia/views/LoginActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/practica_1_trimestre_multimedia/views/RegisterActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/practica_1_trimestre_multimedia/views/RegisterActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/practica_1_trimestre_multimedia/views/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/practica_1_trimestre_multimedia/views/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/practica_1_trimestre_multimedia/views/MessagesInterfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/practica_1_trimestre_multimedia/views/MessagesInterfaces.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -475,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674231727422</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Avance clase">
+      <created>1674231748596</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1674231748596</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

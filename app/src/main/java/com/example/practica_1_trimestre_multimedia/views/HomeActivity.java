@@ -135,7 +135,7 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
 
     @Override
     public void completeFields() {
-        Toast.makeText(HomeActivity.this, "Completa todos los campos.", Toast.LENGTH_LONG).show();
+        Toast.makeText(HomeActivity.this, MessagesInterfaces.WRITE_ALL_FIELDS, Toast.LENGTH_LONG).show();
 
     }
 
