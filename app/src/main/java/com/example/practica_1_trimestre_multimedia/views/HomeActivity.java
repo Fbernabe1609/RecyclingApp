@@ -42,16 +42,40 @@ public class HomeActivity extends AppCompatActivity implements HomeInterface {
         bottomNavigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId()) {
                 case R.id.home:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
+                    getSupportFragmentManager().beginTransaction()
+                            .setCustomAnimations(
+                                    R.anim.slide_in,
+                                    R.anim.fade_out,
+                                    R.anim.fade_in,
+                                    R.anim.slide_out
+                            ).replace(R.id.container, homeFragment).commit();
                     return true;
                 case R.id.rewards:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, rewardsFragment).commit();
+                    getSupportFragmentManager().beginTransaction()
+                            .setCustomAnimations(
+                                    R.anim.slide_in,
+                                    R.anim.fade_out,
+                                    R.anim.fade_in,
+                                    R.anim.slide_out
+                            ).replace(R.id.container, rewardsFragment).commit();
                     return true;
                 case R.id.settings:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, settingsFragment).commit();
+                    getSupportFragmentManager().beginTransaction()
+                            .setCustomAnimations(
+                                    R.anim.slide_in,
+                                    R.anim.fade_out,
+                                    R.anim.fade_in,
+                                    R.anim.slide_out
+                            ).replace(R.id.container, settingsFragment).commit();
                     return true;
                 case R.id.map:
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container, mapsFragment).commit();
+                    getSupportFragmentManager().beginTransaction()
+                            .setCustomAnimations(
+                                    R.anim.slide_in,
+                                    R.anim.fade_out,
+                                    R.anim.fade_in,
+                                    R.anim.slide_out
+                            ).replace(R.id.container, mapsFragment).commit();
                     return true;
             }
             return false;

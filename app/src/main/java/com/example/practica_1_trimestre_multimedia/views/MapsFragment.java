@@ -63,11 +63,7 @@ public class MapsFragment extends Fragment {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        if (direction.size() != 0) {
-            text = direction.get(0).getAddressLine(0);
-        } else {
-            text = latLng.latitude + " " + latLng.longitude;
-        }
+        text = (!direction.isEmpty()) ? direction.get(0).getAddressLine(0) : latLng.latitude + " " + latLng.longitude;
         return text;
     }
 }
